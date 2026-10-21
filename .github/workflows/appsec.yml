@@ -1,0 +1,165 @@
+name: AppSec Pipeline
+
+# Full application-security pipeline for the sample app:
+#   SAST (Semgrep + CodeQL) -> SCA (pip-audit) -> DAST (ZAP baseline)
+#   -> severity gate that fails the build on NEW High/Critical findings.
+#
+# The sample app is intentionally vulnerable, so on this repository the
+# gate is EXPECTED to fail until findings are baselined or fixed. That
+# is the demonstration: the pipeline finds real issues and the gate has
+# teeth. See docs/triage-and-slas.md for the gating policy.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  schedule:
+    # Weekly full scan so newly published CVEs surface against pinned
+    # dependencies even when no code changes.
+    - cron: "17 6 * * 1"
+
+permissions:
+  contents: read
+  security-events: write # SARIF upload to the GitHub Security tab
+  pull-requests: write # DAST report comment / dependency review
+
+jobs:
+  sast-semgrep:
+    name: SAST - Semgrep
+    runs-on: ubuntu-latest
+    container:
+      image: semgrep/semgrep:latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run Semgrep with SARIF output
+        # --error makes Semgrep itself exit non-zero on findings at the
+        # configured severity; the central gate job re-checks SARIF so
+        # policy lives in exactly one place (tools/gate.py).
+        run: >
+          semgrep scan
+          --config p/python
+          --config p/secrets
+          --config p/owasp-top-ten
+          --sarif --output semgrep.sarif
+          --metrics off
+          app/ tools/
+      - name: Upload SARIF to GitHub Security tab
+        if: always()
+        uses: github/codeql-action/upload-sarif@v3
+        with:
+          sarif_file: semgrep.sarif
+          category: semgrep
+      - name: Keep SARIF for the gate job
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: semgrep-sarif
+          path: semgrep.sarif
+
+  sast-codeql:
+    name: SAST - CodeQL
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        language: [python]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Initialize CodeQL
+        uses: github/codeql-action/init@v3
+        with:
+          languages: ${{ matrix.language }}
+          queries: security-extended
+      - name: Perform CodeQL analysis
+        uses: github/codeql-action/analyze@v3
+        with:
+          category: codeql-${{ matrix.language }}
+          output: codeql-results
+      - name: Keep SARIF for the gate job
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: codeql-sarif
+          path: codeql-results/**/*.sarif
+
+  sca:
+    name: SCA - pip-audit + dependency review
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Dependency review (PR only)
+        if: github.event_name == 'pull_request'
+        uses: actions/dependency-review-action@v4
+        with:
+          # Fail the PR if it introduces a dependency with a known
+          # high-or-above severity vulnerability.
+          fail-on-severity: high
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install pip-audit
+        run: pip install pip-audit
+      - name: Audit pinned dependencies
+        # --strict turns "some dependencies could not be audited" into
+        # a failure instead of a silent pass. JSON feeds the gate.
+        run: >
+          pip-audit
+          --requirement app/requirements.txt
+          --format json
+          --output pip-audit.json
+          || true
+      - name: Keep audit report for the gate job
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pip-audit-json
+          path: pip-audit.json
+
+  dast:
+    name: DAST - OWASP ZAP baseline
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Start the target app
+        run: |
+          pip install -r app/requirements.txt
+          nohup python app/app.py > app.log 2>&1 &
+          for i in $(seq 1 30); do
+            curl -sf http://127.0.0.1:5000/ && break || sleep 1
+          done
+      - name: ZAP baseline scan
+        uses: zaproxy/action-baseline@v0.12.0
+        with:
+          target: "http://127.0.0.1:5000/"
+          rules_file_name: ".zap/rules.tsv"
+          # fail_action makes High-severity alerts fail this job;
+          # the central gate + triage docs govern everything else.
+          fail_action: true
+          allow_issue_writing: false
+
+  gate:
+    name: Severity gate
+    needs: [sast-semgrep, sast-codeql, sca]
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          path: results
+          merge-multiple: true
+      - name: Apply the severity policy
+        # Policy: fail on any High/Critical finding that is not in the
+        # committed baseline (policy/baseline.json). See
+        # docs/triage-and-slas.md. On this lab repo the gate fails by
+        # design until the sample findings are baselined -- that is
+        # the adoption path a real team would follow.
+        run: >
+          python tools/gate.py
+          --sarif results/semgrep.sarif
+          --pip-audit results/pip-audit.json
+          --baseline policy/baseline.json
+          --threshold high
