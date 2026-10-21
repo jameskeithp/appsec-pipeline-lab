@@ -125,11 +125,33 @@ jobs:
           python-version: "3.12"
       - name: Start the target app
         run: |
-          pip install -r app/requirements.txt
+          # Retry the install: in run #1 this step failed because the
+          # dependency fetch from PyPI failed on the runner (pip is the
+          # only command in this step that can fail it -- the wait loop
+          # below swallows curl failures by construction, and the SCA
+          # job's pip-audit fetch failed in the same run). A transient
+          # index/network error should not kill the DAST job.
+          for attempt in 1 2 3; do
+            if pip install -r app/requirements.txt; then break; fi
+            if [ "$attempt" = 3 ]; then
+              echo "pip install failed after 3 attempts"
+              exit 1
+            fi
+            sleep 5
+          done
           nohup python app/app.py > app.log 2>&1 &
           for i in $(seq 1 30); do
             curl -sf http://127.0.0.1:5000/ && break || sleep 1
           done
+          # Hard check: the wait loop above cannot fail this step on its
+          # own, so confirm the app really answered. If it did not, fail
+          # here with app.log in the output instead of letting the ZAP
+          # step fail against a dead target.
+          curl -sf http://127.0.0.1:5000/ || {
+            echo "Target app did not start; app.log follows:"
+            cat app.log
+            exit 1
+          }
       - name: ZAP baseline scan
         uses: zaproxy/action-baseline@v0.12.0
         with:
