@@ -18,7 +18,7 @@
 #                       whether it currently carries an advisory.
 Flask==2.2.3
 Werkzeug==2.2.3
-Jinja2==3.1.2
+Jinja2==3.1.6
 requests==2.28.1
 urllib3==1.26.14
 cryptography==39.0.0
