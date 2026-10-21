@@ -1,1 +1,130 @@
-IiIiVW5pdCB0ZXN0cyBmb3IgdG9vbHMvZ2F0ZS5weSAtLSB0aGUgcGlwZWxpbmUncyBwb2xpY3kgbG9naWMuIiIiCgppbXBvcnQganNvbgppbXBvcnQgc3lzCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aAoKc3lzLnBhdGguaW5zZXJ0KDAsIHN0cihQYXRoKF9fZmlsZV9fKS5yZXNvbHZlKCkucGFyZW50c1sxXSkpCgpmcm9tIHRvb2xzLmdhdGUgaW1wb3J0ICgKICAgIEZpbmRpbmcsCiAgICBldmFsdWF0ZSwKICAgIGZpbmRpbmdzX2Zyb21fcGlwX2F1ZGl0LAogICAgZmluZGluZ3NfZnJvbV9zYXJpZiwKICAgIG1haW4sCiAgICBub3JtYWxpemVfc2V2ZXJpdHksCikKCgpkZWYgdGVzdF9ub3JtYWxpemVfc2V2ZXJpdHlfa25vd25fYW5kX3Vua25vd24oKToKICAgIGFzc2VydCBub3JtYWxpemVfc2V2ZXJpdHkoIkNSSVRJQ0FMIikgPT0gImNyaXRpY2FsIgogICAgYXNzZXJ0IG5vcm1hbGl6ZV9zZXZlcml0eSgiZXJyb3IiKSA9PSAiaGlnaCIKICAgIGFzc2VydCBub3JtYWxpemVfc2V2ZXJpdHkoIndhcm5pbmciKSA9PSAibWVkaXVtIgogICAgYXNzZXJ0IG5vcm1hbGl6ZV9zZXZlcml0eShOb25lKSA9PSAibWVkaXVtIgogICAgYXNzZXJ0IG5vcm1hbGl6ZV9zZXZlcml0eSgic29tZXRoaW5nLW5ldyIpID09ICJtZWRpdW0iCgoKZGVmIF9zYXJpZihsZXZlbD0iZXJyb3IiLCBzZXZlcml0eT1Ob25lKToKICAgIHJ1bGUgPSB7ImlkIjogInB5L3Rlc3QtcnVsZSIsICJkZWZhdWx0Q29uZmlndXJhdGlvbiI6IHsibGV2ZWwiOiAibm90ZSJ9fQogICAgaWYgc2V2ZXJpdHk6CiAgICAgICAgcnVsZVsicHJvcGVydGllcyJdID0geyJzZXZlcml0eSI6IHNldmVyaXR5fQogICAgcmV0dXJuIHsKICAgICAgICAicnVucyI6IFsKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgInRvb2wiOiB7ImRyaXZlciI6IHsibmFtZSI6ICJzZW1ncmVwIiwgInJ1bGVzIjogW3J1bGVdfX0sCiAgICAgICAgICAgICAgICAicmVzdWx0cyI6IFsKICAgICAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgICAgICJydWxlSWQiOiAicHkvdGVzdC1ydWxlIiwKICAgICAgICAgICAgICAgICAgICAgICAgImxldmVsIjogbGV2ZWwsCiAgICAgICAgICAgICAgICAgICAgICAgICJsb2NhdGlvbnMiOiBbCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgInBoeXNpY2FsTG9jYXRpb24iOiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJhcnRpZmFjdExvY2F0aW9uIjogeyJ1cmkiOiAiYXBwL2FwcC5weSJ9LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAicmVnaW9uIjogeyJzdGFydExpbmUiOiA0Mn0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIF0sCiAgICAgICAgICAgIH0KICAgICAgICBdCiAgICB9CgoKZGVmIHRlc3Rfc2FyaWZfcGFyc2luZ19tYXBzX2xldmVsX2FuZF9sb2NhdGlvbigpOgogICAgZmluZGluZ3MgPSBmaW5kaW5nc19mcm9tX3NhcmlmKF9zYXJpZigpKQogICAgYXNzZXJ0IGxlbihmaW5kaW5ncykgPT0gMQogICAgZiA9IGZpbmRpbmdzWzBdCiAgICBhc3NlcnQgZi50b29sID09ICJzZW1ncmVwIgogICAgYXNzZXJ0IGYuc2V2ZXJpdHkgPT0gImhpZ2giCiAgICBhc3NlcnQgZi5sb2NhdGlvbiA9PSAiYXBwL2FwcC5weTo0MiIKCgpkZWYgdGVzdF9zYXJpZl9mYWxsc19iYWNrX3RvX3J1bGVfZGVmYXVsdF9sZXZlbCgpOgogICAgZGF0YSA9IF9zYXJpZigpCiAgICBkYXRhWyJydW5zIl1bMF1bInJlc3VsdHMiXVswXS5wb3AoImxldmVsIikKICAgIGRhdGFbInJ1bnMiXVswXVsidG9vbCJdWyJkcml2ZXIiXVsicnVsZXMiXVswXVsiZGVmYXVsdENvbmZpZ3VyYXRpb24iXSA9IHsKICAgICAgICAibGV2ZWwiOiAiZXJyb3IiCiAgICB9CiAgICBmaW5kaW5ncyA9IGZpbmRpbmdzX2Zyb21fc2FyaWYoZGF0YSkKICAgIGFzc2VydCBmaW5kaW5nc1swXS5zZXZlcml0eSA9PSAiaGlnaCIKCgpkZWYgdGVzdF9waXBfYXVkaXRfcGFyc2luZ19tYXJrc192dWxuc19oaWdoKCk6CiAgICBkYXRhID0gewogICAgICAgICJkZXBlbmRlbmNpZXMiOiBbCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICJuYW1lIjogIndlcmt6ZXVnIiwKICAgICAgICAgICAgICAgICJ2ZXJzaW9uIjogIjIuMi4zIiwKICAgICAgICAgICAgICAgICJ2dWxucyI6IFt7ImlkIjogIkNWRS0yMDIzLTI1NTc3In1dLAogICAgICAgICAgICB9LAogICAgICAgICAgICB7Im5hbWUiOiAiZmxhc2siLCAidmVyc2lvbiI6ICIyLjIuMyIsICJ2dWxucyI6IFtdfSwKICAgICAgICBdCiAgICB9CiAgICBmaW5kaW5ncyA9IGZpbmRpbmdzX2Zyb21fcGlwX2F1ZGl0KGRhdGEpCiAgICBhc3NlcnQgbGVuKGZpbmRpbmdzKSA9PSAxCiAgICBhc3NlcnQgZmluZGluZ3NbMF0uc2V2ZXJpdHkgPT0gImhpZ2giCiAgICBhc3NlcnQgZmluZGluZ3NbMF0ucnVsZV9pZCA9PSAiQ1ZFLTIwMjMtMjU1NzciCgoKZGVmIHRlc3RfcGlwX2F1ZGl0X2RlZHVwZXNfcmVwZWF0ZWRfYWR2aXNvcmllcygpOgogICAgZGF0YSA9IHsKICAgICAgICAiZGVwZW5kZW5jaWVzIjogWwogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAibmFtZSI6ICJ3ZXJremV1ZyIsCiAgICAgICAgICAgICAgICAidmVyc2lvbiI6ICIyLjIuMyIsCiAgICAgICAgICAgICAgICAidnVsbnMiOiBbeyJpZCI6ICJDVkUtMjAyMy0yNTU3NyJ9LCB7ImlkIjogIkNWRS0yMDIzLTI1NTc3In1dLAogICAgICAgICAgICB9CiAgICAgICAgXQogICAgfQogICAgYXNzZXJ0IGxlbihmaW5kaW5nc19mcm9tX3BpcF9hdWRpdChkYXRhKSkgPT0gMQoKCmRlZiB0ZXN0X2V2YWx1YXRlX2Jsb2Nrc19hdF9hbmRfYWJvdmVfdGhyZXNob2xkKCk6CiAgICBmaW5kaW5ncyA9IFsKICAgICAgICBGaW5kaW5nKCJzZW1ncmVwIiwgInIxIiwgImNyaXRpY2FsIiwgImEucHk6MSIpLAogICAgICAgIEZpbmRpbmcoInNlbWdyZXAiLCAicjIiLCAibWVkaXVtIiwgImEucHk6MiIpLAogICAgXQogICAgcGFzc2VkLCBibG9ja2luZyA9IGV2YWx1YXRlKGZpbmRpbmdzLCB0aHJlc2hvbGQ9ImhpZ2giKQogICAgYXNzZXJ0IG5vdCBwYXNzZWQKICAgIGFzc2VydCBbZi5ydWxlX2lkIGZvciBmIGluIGJsb2NraW5nXSA9PSBbInIxIl0KCgpkZWYgdGVzdF9ldmFsdWF0ZV9iYXNlbGluZV9zdXBwcmVzc2VzX2tub3duX2ZpbmRpbmdzKCk6CiAgICBmaW5kaW5ncyA9IFtGaW5kaW5nKCJzZW1ncmVwIiwgInIxIiwgImNyaXRpY2FsIiwgImEucHk6MSIpXQogICAgcGFzc2VkLCBibG9ja2luZyA9IGV2YWx1YXRlKAogICAgICAgIGZpbmRpbmdzLCB0aHJlc2hvbGQ9ImhpZ2giLCBiYXNlbGluZV9rZXlzPXsic2VtZ3JlcHxyMXxhLnB5OjEifQogICAgKQogICAgYXNzZXJ0IHBhc3NlZAogICAgYXNzZXJ0IGJsb2NraW5nID09IFtdCgoKZGVmIHRlc3RfbWFpbl9mYWlsc19jbG9zZWRfb25fbWlzc2luZ19maWxlKHRtcF9wYXRoKToKICAgIGFzc2VydCBtYWluKFsiLS1zYXJpZiIsIHN0cih0bXBfcGF0aCAvICJub3BlLnNhcmlmIildKSA9PSAyCgoKZGVmIHRlc3RfbWFpbl9lbmRfdG9fZW5kKHRtcF9wYXRoKToKICAgIHNhcmlmX3BhdGggPSB0bXBfcGF0aCAvICJvdXQuc2FyaWYiCiAgICBzYXJpZl9wYXRoLndyaXRlX3RleHQoanNvbi5kdW1wcyhfc2FyaWYoKSksIGVuY29kaW5nPSJ1dGYtOCIpCiAgICBhc3NlcnQgbWFpbihbIi0tc2FyaWYiLCBzdHIoc2FyaWZfcGF0aCldKSA9PSAxICAjIGhpZ2ggZmluZGluZyBibG9ja3MKICAgIGFzc2VydCBtYWluKFsiLS1zYXJpZiIsIHN0cihzYXJpZl9wYXRoKSwgIi0tdGhyZXNob2xkIiwgImNyaXRpY2FsIl0pID09IDAK
+"""Unit tests for tools/gate.py -- the pipeline's policy logic."""
+
+import json
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
+from tools.gate import (
+    Finding,
+    evaluate,
+    findings_from_pip_audit,
+    findings_from_sarif,
+    main,
+    normalize_severity,
+)
+
+
+def test_normalize_severity_known_and_unknown():
+    assert normalize_severity("CRITICAL") == "critical"
+    assert normalize_severity("error") == "high"
+    assert normalize_severity("warning") == "medium"
+    assert normalize_severity(None) == "medium"
+    assert normalize_severity("something-new") == "medium"
+
+
+def _sarif(level="error", severity=None):
+    rule = {"id": "py/test-rule", "defaultConfiguration": {"level": "note"}}
+    if severity:
+        rule["properties"] = {"severity": severity}
+    return {
+        "runs": [
+            {
+                "tool": {"driver": {"name": "semgrep", "rules": [rule]}},
+                "results": [
+                    {
+                        "ruleId": "py/test-rule",
+                        "level": level,
+                        "locations": [
+                            {
+                                "physicalLocation": {
+                                    "artifactLocation": {"uri": "app/app.py"},
+                                    "region": {"startLine": 42},
+                                }
+                            }
+                        ],
+                    }
+                ],
+            }
+        ]
+    }
+
+
+def test_sarif_parsing_maps_level_and_location():
+    findings = findings_from_sarif(_sarif())
+    assert len(findings) == 1
+    f = findings[0]
+    assert f.tool == "semgrep"
+    assert f.severity == "high"
+    assert f.location == "app/app.py:42"
+
+
+def test_sarif_falls_back_to_rule_default_level():
+    data = _sarif()
+    data["runs"][0]["results"][0].pop("level")
+    data["runs"][0]["tool"]["driver"]["rules"][0]["defaultConfiguration"] = {
+        "level": "error"
+    }
+    findings = findings_from_sarif(data)
+    assert findings[0].severity == "high"
+
+
+def test_pip_audit_parsing_marks_vulns_high():
+    data = {
+        "dependencies": [
+            {
+                "name": "werkzeug",
+                "version": "2.2.3",
+                "vulns": [{"id": "CVE-2023-25577"}],
+            },
+            {"name": "flask", "version": "2.2.3", "vulns": []},
+        ]
+    }
+    findings = findings_from_pip_audit(data)
+    assert len(findings) == 1
+    assert findings[0].severity == "high"
+    assert findings[0].rule_id == "CVE-2023-25577"
+
+
+def test_pip_audit_dedupes_repeated_advisories():
+    data = {
+        "dependencies": [
+            {
+                "name": "werkzeug",
+                "version": "2.2.3",
+                "vulns": [{"id": "CVE-2023-25577"}, {"id": "CVE-2023-25577"}],
+            }
+        ]
+    }
+    assert len(findings_from_pip_audit(data)) == 1
+
+
+def test_evaluate_blocks_at_and_above_threshold():
+    findings = [
+        Finding("semgrep", "r1", "critical", "a.py:1"),
+        Finding("semgrep", "r2", "medium", "a.py:2"),
+    ]
+    passed, blocking = evaluate(findings, threshold="high")
+    assert not passed
+    assert [f.rule_id for f in blocking] == ["r1"]
+
+
+def test_evaluate_baseline_suppresses_known_findings():
+    findings = [Finding("semgrep", "r1", "critical", "a.py:1")]
+    passed, blocking = evaluate(
+        findings, threshold="high", baseline_keys={"semgrep|r1|a.py:1"}
+    )
+    assert passed
+    assert blocking == []
+
+
+def test_main_fails_closed_on_missing_file(tmp_path):
+    assert main(["--sarif", str(tmp_path / "nope.sarif")]) == 2
+
+
+def test_main_end_to_end(tmp_path):
+    sarif_path = tmp_path / "out.sarif"
+    sarif_path.write_text(json.dumps(_sarif()), encoding="utf-8")
+    assert main(["--sarif", str(sarif_path)]) == 1  # high finding blocks
+    assert main(["--sarif", str(sarif_path), "--threshold", "critical"]) == 0

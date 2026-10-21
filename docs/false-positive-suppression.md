@@ -1,1 +1,61 @@
-IyBGYWxzZSBwb3NpdGl2ZXMgYW5kIHN1cHByZXNzaW9uCgpTdXBwcmVzc2luZyBhIGZpbmRpbmcgaXMgYSBzZWN1cml0eSBkZWNpc2lvbiwgc28gaXQgaXMgbWFkZSBpbiB0aGUKb3BlbiwgaW4gdmVyc2lvbiBjb250cm9sLCB3aXRoIGFuIGV4cGlyeSBkYXRlLiBUaHJlZSBtZWNoYW5pc21zIGV4aXN0CmluIHRoaXMgcmVwbywgaW4gZGVzY2VuZGluZyBvcmRlciBvZiBwcmVmZXJlbmNlOgoKIyMgMS4gRml4IGl0IChhbHdheXMgdGhlIGZpcnN0IG9wdGlvbikKCkEgc3VwcHJlc3Npb24gcmVxdWVzdCBzdGFydHMgd2l0aCB0aGUgcXVlc3Rpb24gIndoeSBpcyBmaXhpbmcgdGhpcwp3cm9uZz8iIElmIHRoZXJlIGlzIG5vIGdvb2QgYW5zd2VyLCB0aGVyZSBpcyBubyBzdXBwcmVzc2lvbi4KCiMjIDIuIFBhdGggYW5kIHJ1bGUgY29uZmlndXJhdGlvbiAoc2Nhbm5lci1sZXZlbCkKCi0gKipTZW1ncmVwKio6IGAuc2VtZ3JlcGlnbm9yZWAgZXhjbHVkZXMgcGF0aHMgKHRlc3RzLCBnZW5lcmF0ZWQKICBvdXRwdXQpLiBJbmxpbmUgYCMgbm9zZW1ncmVwOiA8cnVsZS1pZD5gIGNvbW1lbnRzIHN1cHByZXNzIG9uZSBsaW5lCiAgYW5kIG11c3QgY2FycnkgYSBqdXN0aWZpY2F0aW9uIGNvbW1lbnQgYW5kIHRpY2tldCByZWZlcmVuY2Ugb24gdGhlCiAgbGluZSBhYm92ZS4gRXhhbXBsZSBvZiB0aGUgKmZvcm0qIChmcm9tIGEgaHlwb3RoZXRpY2FsIHByb2R1Y3Rpb24KICBjb2RlYmFzZSwgbm90IHRoaXMgbGFiJ3MgdGFyZ2V0IGFwcCk6CgogIGBgYHB5dGhvbgogICMgRlA6IGlucHV0IGlzIGFuIGVudW0gdmFsaWRhdGVkIGFnYWluc3QgQUxMT1dFRF9TT1JUUyBhYm92ZS4KICAjIFRpY2tldDogU0VDLTEyMzQsIGV4cGlyZXMgMjAyNy0wMS0wMS4KICBxdWVyeSA9IGJ1aWxkX3F1ZXJ5KHNvcnQpICAjIG5vc2VtZ3JlcDogcHl0aG9uLmxhbmcuc2VjdXJpdHkuYXVkaXQuc3FsaQogIGBgYAoKLSAqKlpBUCoqOiBgLnphcC9ydWxlcy50c3ZgIHNldHMgcGVyLXJ1bGUgdGhyZXNob2xkcwogIChgSUdOT1JFYCAvIGBXQVJOYCAvIGBGQUlMYCkuIFRoaXMgcmVwbydzIGZpbGUga2VlcHMgbWlzc2luZy1DU1AgYW5kCiAgY2xpY2tqYWNraW5nIHByb3RlY3Rpb24gYXQgYEZBSUxgICh0aGV5IGFyZSByZWFsIGZpbmRpbmdzIG9uIHRoZQogIHRhcmdldCBhcHApIGFuZCBkb2N1bWVudHMgb25lIGBJR05PUkVgIGFzIGEgd29ya2VkIGV4YW1wbGUgb2YgdGhlCiAgZm9ybWF0LCB3aXRoIGl0cyByZWFzb25pbmcgd3JpdHRlbiBpbiB0aGUgZmlsZSBpdHNlbGYuCgojIyAzLiBUaGUgZ2F0ZSBiYXNlbGluZSAocG9saWN5LWxldmVsKQoKYHBvbGljeS9iYXNlbGluZS5qc29uYCBsaXN0cyBmaW5kaW5nIGtleXMgdGhlIGdhdGUgd2lsbCBub3QgYmxvY2sgb24uCkFuIGVudHJ5IGlzIGFuICphY2NlcHRlZCByaXNrIHJlY29yZCosIG5vdCBhIGRlbGV0ZSBidXR0b24uIFJ1bGVzOgoKLSBPbmUgYmFzZWxpbmUgZW50cnkgcGVyIGZpbmRpbmcga2V5LCBhZGRlZCBpbiB0aGUgc2FtZSBQUiBhcyB0aGUKICB0cmlhZ2UgdGlja2V0IHJlZmVyZW5jZS4KLSBFdmVyeSBlbnRyeSBuYW1lcyBhbiBvd25lciBhbmQgYW4gZXhwaXJ5IChkZWZhdWx0IDkwIGRheXMsIG1heGltdW0KICAxODAgZm9yIGxvdyBzZXZlcml0eSkuIEV4cGlyZWQgZW50cmllcyBhcmUgcmVtb3ZlZCBpbiBhIG1vbnRobHkKICByZXZpZXc7IHRoZSBmaW5kaW5nIHRoZW4gYmxvY2tzIGFnYWluIHVudGlsIHJlLXRyaWFnZWQuCi0gQ3JpdGljYWwgZmluZGluZ3MgY2Fubm90IGJlIGJhc2VsaW5lZCBieSB0aGUgZmluZGluZydzIG93biB0ZWFtOwogIHRoZXkgbmVlZCBBcHBTZWMgbGVhZCBzaWduLW9mZi4KLSBUaGUgbW9udGhseSByZXZpZXcgYXNrcyBvbmUgcXVlc3Rpb24gcGVyIGVudHJ5OiAiaXMgdGhpcyBzdGlsbAogIHRydWUsIGFuZCBpcyB0aGUgZml4IHN0aWxsIGhhcmRlciB0aGFuIHRoZSByaXNrPyIgSWYgdGhlIGFuc3dlcgogIGNoYW5nZWQsIHRoZSBlbnRyeSBnb2VzLgoKIyMgV2hhdCBhIGdvb2Qgc3VwcHJlc3Npb24gcmVjb3JkIGxvb2tzIGxpa2UKCnwgRmllbGQgfCBFeGFtcGxlIHwKfC0tLXwtLS18CnwgRmluZGluZyB8IHNlbWdyZXAgYHB5dGhvbi5mbGFzay5zZWN1cml0eS54c3NgIGF0IGBhcHAvYXBwLnB5OjU3YCB8CnwgVmVyZGljdCB8IFRydWUgcG9zaXRpdmUsIGFjY2VwdGVkIHJpc2sgKHRyYWluaW5nIHRhcmdldCkgfAp8IFJhdGlvbmFsZSB8IFRoZSBhcHAgaXMgYW4gaW50ZW50aW9uYWwgc2Nhbm5lciB0YXJnZXQsIGxvY2FsaG9zdC1vbmx5IHwKfCBPd25lciB8IEFwcFNlYyBsYWIgbWFpbnRhaW5lciB8CnwgVGlja2V0IHwgTEFCLTAwMSB8CnwgRXhwaXJ5IHwgUmV2aWV3ZWQgZWFjaCByZWxlYXNlOyBub3QgY2FycmllZCBpbnRvIGFueSBwcm9kdWN0aW9uIGZvcmsgfAoKT24gdGhpcyBsYWIgcmVwbyB0aGUgYmFzZWxpbmUgaXMgaW50ZW50aW9uYWxseSBlbXB0eSBhbmQgdGhlIHRhcmdldAphcHAncyBmaW5kaW5ncyBhcmUgKm5vdCogc3VwcHJlc3NlZCBhbnl3aGVyZSBpbiBzY2FubmVyIGNvbmZpZzogc2VlaW5nCnJhdywgdW5zdXBwcmVzc2VkIG91dHB1dCBpcyB3aGF0IG1ha2VzIHRoZSBkZW1vIGhvbmVzdC4K
+# False positives and suppression
+
+Suppressing a finding is a security decision, so it is made in the
+open, in version control, with an expiry date. Three mechanisms exist
+in this repo, in descending order of preference:
+
+## 1. Fix it (always the first option)
+
+A suppression request starts with the question "why is fixing this
+wrong?" If there is no good answer, there is no suppression.
+
+## 2. Path and rule configuration (scanner-level)
+
+- **Semgrep**: `.semgrepignore` excludes paths (tests, generated
+  output). Inline `# nosemgrep: <rule-id>` comments suppress one line
+  and must carry a justification comment and ticket reference on the
+  line above. Example of the *form* (from a hypothetical production
+  codebase, not this lab's target app):
+
+  ```python
+  # FP: input is an enum validated against ALLOWED_SORTS above.
+  # Ticket: SEC-1234, expires 2027-01-01.
+  query = build_query(sort)  # nosemgrep: python.lang.security.audit.sqli
+  ```
+
+- **ZAP**: `.zap/rules.tsv` sets per-rule thresholds
+  (`IGNORE` / `WARN` / `FAIL`). This repo's file keeps missing-CSP and
+  clickjacking protection at `FAIL` (they are real findings on the
+  target app) and documents one `IGNORE` as a worked example of the
+  format, with its reasoning written in the file itself.
+
+## 3. The gate baseline (policy-level)
+
+`policy/baseline.json` lists finding keys the gate will not block on.
+An entry is an *accepted risk record*, not a delete button. Rules:
+
+- One baseline entry per finding key, added in the same PR as the
+  triage ticket reference.
+- Every entry names an owner and an expiry (default 90 days, maximum
+  180 for low severity). Expired entries are removed in a monthly
+  review; the finding then blocks again until re-triaged.
+- Critical findings cannot be baselined by the finding's own team;
+  they need AppSec lead sign-off.
+- The monthly review asks one question per entry: "is this still
+  true, and is the fix still harder than the risk?" If the answer
+  changed, the entry goes.
+
+## What a good suppression record looks like
+
+| Field | Example |
+|---|---|
+| Finding | semgrep `python.flask.security.xss` at `app/app.py:57` |
+| Verdict | True positive, accepted risk (training target) |
+| Rationale | The app is an intentional scanner target, localhost-only |
+| Owner | AppSec lab maintainer |
+| Ticket | LAB-001 |
+| Expiry | Reviewed each release; not carried into any production fork |
+
+On this lab repo the baseline is intentionally empty and the target
+app's findings are *not* suppressed anywhere in scanner config: seeing
+raw, unsuppressed output is what makes the demo honest.

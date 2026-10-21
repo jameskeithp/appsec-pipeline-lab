@@ -1,1 +1,192 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiJTZXZlcml0eSBnYXRlIGZvciB0aGUgQXBwU2VjIHBpcGVsaW5lLgoKUmVhZHMgc2Nhbm5lciBvdXRwdXQgKFNBUklGIGZyb20gU2VtZ3JlcC9Db2RlUUwsIEpTT04gZnJvbSBwaXAtYXVkaXQpCmFuZCBhbnN3ZXJzIG9uZSBxdWVzdGlvbjogZG9lcyB0aGlzIGNoYW5nZSBpbnRyb2R1Y2UgZmluZGluZ3MgYXQgb3IKYWJvdmUgdGhlIGJsb2NraW5nIHNldmVyaXR5PwoKUG9saWN5IChzZWUgZG9jcy90cmlhZ2UtYW5kLXNsYXMubWQgZm9yIHRoZSBmdWxsIHByb2dyYW0gcG9saWN5KToKICAqIERlZmF1bHQgYmxvY2tpbmcgdGhyZXNob2xkOiAiaGlnaCIgLS0gYW55IE5FVyBmaW5kaW5nIHdob3NlCiAgICBub3JtYWxpemVkIHNldmVyaXR5IGlzIGhpZ2ggb3IgY3JpdGljYWwgZmFpbHMgdGhlIGdhdGUuCiAgKiBGaW5kaW5ncyBhbHJlYWR5IHJlY29yZGVkIGluIGEgYmFzZWxpbmUgZmlsZSBkbyBub3QgYmxvY2s7IHRoYXQgaXMKICAgIGhvdyBhIHRlYW0gYWRvcHRzIGdhdGluZyBvbiBhIGxlZ2FjeSBjb2RlYmFzZSB3aXRob3V0IGEgZmxhZyBkYXkuCiAgKiBUaGUgZ2F0ZSBmYWlscyBjbG9zZWQgb24gdW5yZWFkYWJsZSBpbnB1dDogYSBzY2FubmVyIHRoYXQgcHJvZHVjZWQKICAgIGdhcmJhZ2UgbXVzdCBuZXZlciBsb29rIGxpa2UgYSBzY2FubmVyIHRoYXQgcHJvZHVjZWQgbm90aGluZy4KClRoZSBtb2R1bGUgaXMgZGVsaWJlcmF0ZWx5IHNtYWxsIGFuZCBkZXBlbmRlbmN5LWZyZWUgc28gaXQgY2FuIGJlIHVuaXQKdGVzdGVkIGFueXdoZXJlICh0ZXN0cy90ZXN0X2dhdGUucHkpIGFuZCBkcm9wcGVkIGludG8gYW55IENJIHN5c3RlbS4KIiIiCgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgppbXBvcnQgYXJncGFyc2UKaW1wb3J0IGpzb24KaW1wb3J0IHN5cwpmcm9tIGRhdGFjbGFzc2VzIGltcG9ydCBkYXRhY2xhc3MKCiMgTm9ybWFsaXplZCBzZXZlcml0eSBsYWRkZXIuIEluZGV4ID0gcmFuazsgaGlnaGVyIGlzIHdvcnNlLgpTRVZFUklUWV9PUkRFUiA9IFsibm90ZSIsICJsb3ciLCAibWVkaXVtIiwgImhpZ2giLCAiY3JpdGljYWwiXQoKIyBTQVJJRiBsZXZlbHMgYW5kIHBpcC1hdWRpdCBkbyBub3Qgc2hhcmUgYSB2b2NhYnVsYXJ5OyBtYXAgYm90aCBvbnRvCiMgdGhlIGxhZGRlciBhYm92ZS4gVW5rbm93biB2YWx1ZXMgbWFwIHRvICJtZWRpdW0iIHNvIHRoZXkgYXJlIHNlZW4gYnkKIyBhIGh1bWFuIGluc3RlYWQgb2Ygc2lsZW50bHkgZHJvcHBlZC4KU0FSSUZfTEVWRUxfVE9fU0VWRVJJVFkgPSB7CiAgICAiZXJyb3IiOiAiaGlnaCIsCiAgICAid2FybmluZyI6ICJtZWRpdW0iLAogICAgIm5vdGUiOiAibG93IiwKICAgICJub25lIjogIm5vdGUiLAp9CgoKZGVmIG5vcm1hbGl6ZV9zZXZlcml0eShyYXc6IHN0ciB8IE5vbmUpIC0+IHN0cjoKICAgIGlmIHJhdyBpcyBOb25lOgogICAgICAgIHJldHVybiAibWVkaXVtIgogICAgdmFsdWUgPSBzdHIocmF3KS5zdHJpcCgpLmxvd2VyKCkKICAgIGlmIHZhbHVlIGluIFNFVkVSSVRZX09SREVSOgogICAgICAgIHJldHVybiB2YWx1ZQogICAgcmV0dXJuIFNBUklGX0xFVkVMX1RPX1NFVkVSSVRZLmdldCh2YWx1ZSwgIm1lZGl1bSIpCgoKZGVmIHNldmVyaXR5X3Jhbmsoc2V2ZXJpdHk6IHN0cikgLT4gaW50OgogICAgcmV0dXJuIFNFVkVSSVRZX09SREVSLmluZGV4KG5vcm1hbGl6ZV9zZXZlcml0eShzZXZlcml0eSkpCgoKQGRhdGFjbGFzcyhmcm96ZW49VHJ1ZSkKY2xhc3MgRmluZGluZzoKICAgIHRvb2w6IHN0cgogICAgcnVsZV9pZDogc3RyCiAgICBzZXZlcml0eTogc3RyCiAgICBsb2NhdGlvbjogc3RyCgogICAgQHByb3BlcnR5CiAgICBkZWYga2V5KHNlbGYpIC0+IHN0cjoKICAgICAgICAiIiJTdGFibGUgaWRlbnRpdHkgdXNlZCBmb3IgYmFzZWxpbmUgY29tcGFyaXNvbi4iIiIKICAgICAgICByZXR1cm4gZiJ7c2VsZi50b29sfXx7c2VsZi5ydWxlX2lkfXx7c2VsZi5sb2NhdGlvbn0iCgoKZGVmIGZpbmRpbmdzX2Zyb21fc2FyaWYoZGF0YTogZGljdCwgdG9vbF9mYWxsYmFjazogc3RyID0gInNhcmlmIikgLT4gbGlzdFtGaW5kaW5nXToKICAgIGZpbmRpbmdzOiBsaXN0W0ZpbmRpbmddID0gW10KICAgIGZvciBydW4gaW4gZGF0YS5nZXQoInJ1bnMiLCBbXSk6CiAgICAgICAgdG9vbCA9IHJ1bi5nZXQoInRvb2wiLCB7fSkuZ2V0KCJkcml2ZXIiLCB7fSkuZ2V0KCJuYW1lIiwgdG9vbF9mYWxsYmFjaykKICAgICAgICBydWxlcyA9IHsKICAgICAgICAgICAgci5nZXQoImlkIik6IHIKICAgICAgICAgICAgZm9yIHIgaW4gcnVuLmdldCgidG9vbCIsIHt9KS5nZXQoImRyaXZlciIsIHt9KS5nZXQoInJ1bGVzIiwgW10pCiAgICAgICAgfQogICAgICAgIGZvciByZXN1bHQgaW4gcnVuLmdldCgicmVzdWx0cyIsIFtdKToKICAgICAgICAgICAgcnVsZV9pZCA9IHJlc3VsdC5nZXQoInJ1bGVJZCIsICJ1bmtub3duLXJ1bGUiKQogICAgICAgICAgICBydWxlID0gcnVsZXMuZ2V0KHJ1bGVfaWQsIHt9KQogICAgICAgICAgICBwcm9wcyA9IHJ1bGUuZ2V0KCJwcm9wZXJ0aWVzIiwge30pIG9yIHt9CiAgICAgICAgICAgIHJhdyA9ICgKICAgICAgICAgICAgICAgIHByb3BzLmdldCgic2V2ZXJpdHkiKQogICAgICAgICAgICAgICAgb3IgcmVzdWx0LmdldCgicHJvcGVydGllcyIsIHt9KS5nZXQoInNldmVyaXR5IikKICAgICAgICAgICAgICAgIG9yIHJlc3VsdC5nZXQoImxldmVsIikKICAgICAgICAgICAgICAgICMgU2VtZ3JlcCBTQVJJRiBjYXJyaWVzIHRoZSBydWxlJ3Mgb3JpZ2luYWwgc2V2ZXJpdHkKICAgICAgICAgICAgICAgICMgKEVSUk9SL1dBUk5JTkcvSU5GTykgaGVyZSB3aGVuIHRoZSByZXN1bHQgaGFzIG5vIGxldmVsLgogICAgICAgICAgICAgICAgb3IgcnVsZS5nZXQoImRlZmF1bHRDb25maWd1cmF0aW9uIiwge30pLmdldCgibGV2ZWwiKQogICAgICAgICAgICApCiAgICAgICAgICAgIGxvY2F0aW9uID0gInVua25vd24iCiAgICAgICAgICAgIGxvY2F0aW9ucyA9IHJlc3VsdC5nZXQoImxvY2F0aW9ucyIsIFtdKQogICAgICAgICAgICBpZiBsb2NhdGlvbnM6CiAgICAgICAgICAgICAgICBwaHlzaWNhbCA9IGxvY2F0aW9uc1swXS5nZXQoInBoeXNpY2FsTG9jYXRpb24iLCB7fSkKICAgICAgICAgICAgICAgIGFydGlmYWN0ID0gcGh5c2ljYWwuZ2V0KCJhcnRpZmFjdExvY2F0aW9uIiwge30pLmdldCgidXJpIiwgIiIpCiAgICAgICAgICAgICAgICBsaW5lID0gcGh5c2ljYWwuZ2V0KCJyZWdpb24iLCB7fSkuZ2V0KCJzdGFydExpbmUiLCAiIikKICAgICAgICAgICAgICAgIGxvY2F0aW9uID0gZiJ7YXJ0aWZhY3R9OntsaW5lfSIgaWYgYXJ0aWZhY3QgZWxzZSAidW5rbm93biIKICAgICAgICAgICAgZmluZGluZ3MuYXBwZW5kKAogICAgICAgICAgICAgICAgRmluZGluZygKICAgICAgICAgICAgICAgICAgICB0b29sPXRvb2wsCiAgICAgICAgICAgICAgICAgICAgcnVsZV9pZD1ydWxlX2lkLAogICAgICAgICAgICAgICAgICAgIHNldmVyaXR5PW5vcm1hbGl6ZV9zZXZlcml0eShyYXcpLAogICAgICAgICAgICAgICAgICAgIGxvY2F0aW9uPWxvY2F0aW9uLAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICApCiAgICByZXR1cm4gZmluZGluZ3MKCgpkZWYgZmluZGluZ3NfZnJvbV9waXBfYXVkaXQoZGF0YTogZGljdCkgLT4gbGlzdFtGaW5kaW5nXToKICAgICIiInBpcC1hdWRpdCAtLWZvcm1hdCBqc29uIGVtaXRzIHsiZGVwZW5kZW5jaWVzIjogWy4uLl19LgoKICAgIHBpcC1hdWRpdCBkb2VzIG5vdCBwdWJsaXNoIHBlci1DVkUgc2V2ZXJpdHkgaW4gaXRzIEpTT04sIHNvIGV2ZXJ5CiAgICBrbm93bi12dWxuZXJhYmxlIGRlcGVuZGVuY3kgaXMgdHJlYXRlZCBhcyAiaGlnaCI6IGEgZGVwZW5kZW5jeSB3aXRoCiAgICBhIHB1Ymxpc2hlZCBmaXggYXZhaWxhYmxlIGlzIGV4YWN0bHkgdGhlIGNsYXNzIG9mIGZpbmRpbmcgdGhlIFNDQQogICAgc3RhZ2UgZXhpc3RzIHRvIGJsb2NrIG9uLiBEb2N1bWVudGVkIGluIGRvY3MvdHJpYWdlLWFuZC1zbGFzLm1kLgogICAgIiIiCiAgICBmaW5kaW5nczogbGlzdFtGaW5kaW5nXSA9IFtdCiAgICBzZWVuOiBzZXRbdHVwbGVbc3RyLCBzdHJdXSA9IHNldCgpCiAgICBmb3IgZGVwIGluIGRhdGEuZ2V0KCJkZXBlbmRlbmNpZXMiLCBbXSk6CiAgICAgICAgZm9yIHZ1bG4gaW4gZGVwLmdldCgidnVsbnMiLCBbXSk6CiAgICAgICAgICAgICMgcGlwLWF1ZGl0IGNhbiByZXBlYXQgdGhlIHNhbWUgYWR2aXNvcnkgZm9yIG9uZSBwYWNrYWdlCiAgICAgICAgICAgICMgKG9uY2UgcGVyIGFmZmVjdGVkIHZlcnNpb24gcmFuZ2UpOyBjb3VudCBpdCBvbmNlLgogICAgICAgICAgICBkZWR1cGVfa2V5ID0gKGRlcC5nZXQoIm5hbWUiLCAiIiksIHZ1bG4uZ2V0KCJpZCIsICIiKSkKICAgICAgICAgICAgaWYgZGVkdXBlX2tleSBpbiBzZWVuOgogICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICAgICAgc2Vlbi5hZGQoZGVkdXBlX2tleSkKICAgICAgICAgICAgZmluZGluZ3MuYXBwZW5kKAogICAgICAgICAgICAgICAgRmluZGluZygKICAgICAgICAgICAgICAgICAgICB0b29sPSJwaXAtYXVkaXQiLAogICAgICAgICAgICAgICAgICAgIHJ1bGVfaWQ9dnVsbi5nZXQoImlkIiwgInVua25vd24tY3ZlIiksCiAgICAgICAgICAgICAgICAgICAgc2V2ZXJpdHk9ImhpZ2giLAogICAgICAgICAgICAgICAgICAgIGxvY2F0aW9uPWYie2RlcC5nZXQoJ25hbWUnKX09PXtkZXAuZ2V0KCd2ZXJzaW9uJyl9IiwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgKQogICAgcmV0dXJuIGZpbmRpbmdzCgoKZGVmIGV2YWx1YXRlKAogICAgZmluZGluZ3M6IGxpc3RbRmluZGluZ10sCiAgICB0aHJlc2hvbGQ6IHN0ciA9ICJoaWdoIiwKICAgIGJhc2VsaW5lX2tleXM6IHNldFtzdHJdIHwgTm9uZSA9IE5vbmUsCikgLT4gdHVwbGVbYm9vbCwgbGlzdFtGaW5kaW5nXV06CiAgICAiIiJSZXR1cm4gKHBhc3NlZCwgYmxvY2tpbmdfZmluZGluZ3MpLgoKICAgIEEgZmluZGluZyBibG9ja3Mgd2hlbiBpdHMgc2V2ZXJpdHkgaXMgYXQgb3IgYWJvdmUgdGhlIHRocmVzaG9sZCBhbmQKICAgIGl0cyBrZXkgaXMgbm90IGluIHRoZSBiYXNlbGluZS4KICAgICIiIgogICAgYmFzZWxpbmVfa2V5cyA9IGJhc2VsaW5lX2tleXMgb3Igc2V0KCkKICAgIGN1dG9mZiA9IHNldmVyaXR5X3JhbmsodGhyZXNob2xkKQogICAgYmxvY2tpbmcgPSBbCiAgICAgICAgZgogICAgICAgIGZvciBmIGluIGZpbmRpbmdzCiAgICAgICAgaWYgc2V2ZXJpdHlfcmFuayhmLnNldmVyaXR5KSA+PSBjdXRvZmYgYW5kIGYua2V5IG5vdCBpbiBiYXNlbGluZV9rZXlzCiAgICBdCiAgICByZXR1cm4gKGxlbihibG9ja2luZykgPT0gMCwgYmxvY2tpbmcpCgoKZGVmIGxvYWRfYmFzZWxpbmUocGF0aDogc3RyKSAtPiBzZXRbc3RyXToKICAgIHdpdGggb3BlbihwYXRoLCBlbmNvZGluZz0idXRmLTgiKSBhcyBmaDoKICAgICAgICBkYXRhID0ganNvbi5sb2FkKGZoKQogICAgcmV0dXJuIHtzdHIoaykgZm9yIGsgaW4gZGF0YS5nZXQoImJhc2VsaW5lX2tleXMiLCBbXSl9CgoKZGVmIG1haW4oYXJndjogbGlzdFtzdHJdIHwgTm9uZSA9IE5vbmUpIC0+IGludDoKICAgIHBhcnNlciA9IGFyZ3BhcnNlLkFyZ3VtZW50UGFyc2VyKGRlc2NyaXB0aW9uPSJBcHBTZWMgc2V2ZXJpdHkgZ2F0ZSIpCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCItLXNhcmlmIiwgYWN0aW9uPSJhcHBlbmQiLCBkZWZhdWx0PVtdLCBoZWxwPSJTQVJJRiBmaWxlIikKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoIi0tcGlwLWF1ZGl0IiwgaGVscD0icGlwLWF1ZGl0IEpTT04gb3V0cHV0IGZpbGUiKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgiLS1iYXNlbGluZSIsIGhlbHA9IkpTT04gZmlsZSB3aXRoIGJhc2VsaW5lX2tleXMgbGlzdCIpCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCItLXRocmVzaG9sZCIsIGRlZmF1bHQ9ImhpZ2giLCBjaG9pY2VzPVNFVkVSSVRZX09SREVSKQogICAgYXJncyA9IHBhcnNlci5wYXJzZV9hcmdzKGFyZ3YpCgogICAgZmluZGluZ3M6IGxpc3RbRmluZGluZ10gPSBbXQogICAgdHJ5OgogICAgICAgIGZvciBwYXRoIGluIGFyZ3Muc2FyaWY6CiAgICAgICAgICAgIHdpdGggb3BlbihwYXRoLCBlbmNvZGluZz0idXRmLTgiKSBhcyBmaDoKICAgICAgICAgICAgICAgIGZpbmRpbmdzLmV4dGVuZChmaW5kaW5nc19mcm9tX3NhcmlmKGpzb24ubG9hZChmaCkpKQogICAgICAgIGlmIGFyZ3MucGlwX2F1ZGl0OgogICAgICAgICAgICB3aXRoIG9wZW4oYXJncy5waXBfYXVkaXQsIGVuY29kaW5nPSJ1dGYtOCIpIGFzIGZoOgogICAgICAgICAgICAgICAgZmluZGluZ3MuZXh0ZW5kKGZpbmRpbmdzX2Zyb21fcGlwX2F1ZGl0KGpzb24ubG9hZChmaCkpKQogICAgICAgIGJhc2VsaW5lID0gbG9hZF9iYXNlbGluZShhcmdzLmJhc2VsaW5lKSBpZiBhcmdzLmJhc2VsaW5lIGVsc2Ugc2V0KCkKICAgIGV4Y2VwdCAoT1NFcnJvciwganNvbi5KU09ORGVjb2RlRXJyb3IpIGFzIGV4YzoKICAgICAgICBwcmludChmImdhdGU6IGNhbm5vdCByZWFkIHNjYW5uZXIgb3V0cHV0ICh7ZXhjfSk7IGZhaWxpbmcgY2xvc2VkIikKICAgICAgICByZXR1cm4gMgoKICAgIHBhc3NlZCwgYmxvY2tpbmcgPSBldmFsdWF0ZShmaW5kaW5ncywgYXJncy50aHJlc2hvbGQsIGJhc2VsaW5lKQogICAgZm9yIGYgaW4gYmxvY2tpbmc6CiAgICAgICAgcHJpbnQoZiJCTE9DS0lORyBbe2Yuc2V2ZXJpdHl9XSB7Zi50b29sfSB7Zi5ydWxlX2lkfSBhdCB7Zi5sb2NhdGlvbn0iKQogICAgcHJpbnQoCiAgICAgICAgZiJnYXRlOiB7bGVuKGZpbmRpbmdzKX0gZmluZGluZ3MsIHtsZW4oYmxvY2tpbmcpfSBibG9ja2luZyAiCiAgICAgICAgZiIodGhyZXNob2xkPXthcmdzLnRocmVzaG9sZH0pIC0+IHsnUEFTUycgaWYgcGFzc2VkIGVsc2UgJ0ZBSUwnfSIKICAgICkKICAgIHJldHVybiAwIGlmIHBhc3NlZCBlbHNlIDEKCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgc3lzLmV4aXQobWFpbigpKQo=
+#!/usr/bin/env python3
+"""Severity gate for the AppSec pipeline.
+
+Reads scanner output (SARIF from Semgrep/CodeQL, JSON from pip-audit)
+and answers one question: does this change introduce findings at or
+above the blocking severity?
+
+Policy (see docs/triage-and-slas.md for the full program policy):
+  * Default blocking threshold: "high" -- any NEW finding whose
+    normalized severity is high or critical fails the gate.
+  * Findings already recorded in a baseline file do not block; that is
+    how a team adopts gating on a legacy codebase without a flag day.
+  * The gate fails closed on unreadable input: a scanner that produced
+    garbage must never look like a scanner that produced nothing.
+
+The module is deliberately small and dependency-free so it can be unit
+tested anywhere (tests/test_gate.py) and dropped into any CI system.
+"""
+
+from __future__ import annotations
+
+import argparse
+import json
+import sys
+from dataclasses import dataclass
+
+# Normalized severity ladder. Index = rank; higher is worse.
+SEVERITY_ORDER = ["note", "low", "medium", "high", "critical"]
+
+# SARIF levels and pip-audit do not share a vocabulary; map both onto
+# the ladder above. Unknown values map to "medium" so they are seen by
+# a human instead of silently dropped.
+SARIF_LEVEL_TO_SEVERITY = {
+    "error": "high",
+    "warning": "medium",
+    "note": "low",
+    "none": "note",
+}
+
+
+def normalize_severity(raw: str | None) -> str:
+    if raw is None:
+        return "medium"
+    value = str(raw).strip().lower()
+    if value in SEVERITY_ORDER:
+        return value
+    return SARIF_LEVEL_TO_SEVERITY.get(value, "medium")
+
+
+def severity_rank(severity: str) -> int:
+    return SEVERITY_ORDER.index(normalize_severity(severity))
+
+
+@dataclass(frozen=True)
+class Finding:
+    tool: str
+    rule_id: str
+    severity: str
+    location: str
+
+    @property
+    def key(self) -> str:
+        """Stable identity used for baseline comparison."""
+        return f"{self.tool}|{self.rule_id}|{self.location}"
+
+
+def findings_from_sarif(data: dict, tool_fallback: str = "sarif") -> list[Finding]:
+    findings: list[Finding] = []
+    for run in data.get("runs", []):
+        tool = run.get("tool", {}).get("driver", {}).get("name", tool_fallback)
+        rules = {
+            r.get("id"): r
+            for r in run.get("tool", {}).get("driver", {}).get("rules", [])
+        }
+        for result in run.get("results", []):
+            rule_id = result.get("ruleId", "unknown-rule")
+            rule = rules.get(rule_id, {})
+            props = rule.get("properties", {}) or {}
+            raw = (
+                props.get("severity")
+                or result.get("properties", {}).get("severity")
+                or result.get("level")
+                # Semgrep SARIF carries the rule's original severity
+                # (ERROR/WARNING/INFO) here when the result has no level.
+                or rule.get("defaultConfiguration", {}).get("level")
+            )
+            location = "unknown"
+            locations = result.get("locations", [])
+            if locations:
+                physical = locations[0].get("physicalLocation", {})
+                artifact = physical.get("artifactLocation", {}).get("uri", "")
+                line = physical.get("region", {}).get("startLine", "")
+                location = f"{artifact}:{line}" if artifact else "unknown"
+            findings.append(
+                Finding(
+                    tool=tool,
+                    rule_id=rule_id,
+                    severity=normalize_severity(raw),
+                    location=location,
+                )
+            )
+    return findings
+
+
+def findings_from_pip_audit(data: dict) -> list[Finding]:
+    """pip-audit --format json emits {"dependencies": [...]}.
+
+    pip-audit does not publish per-CVE severity in its JSON, so every
+    known-vulnerable dependency is treated as "high": a dependency with
+    a published fix available is exactly the class of finding the SCA
+    stage exists to block on. Documented in docs/triage-and-slas.md.
+    """
+    findings: list[Finding] = []
+    seen: set[tuple[str, str]] = set()
+    for dep in data.get("dependencies", []):
+        for vuln in dep.get("vulns", []):
+            # pip-audit can repeat the same advisory for one package
+            # (once per affected version range); count it once.
+            dedupe_key = (dep.get("name", ""), vuln.get("id", ""))
+            if dedupe_key in seen:
+                continue
+            seen.add(dedupe_key)
+            findings.append(
+                Finding(
+                    tool="pip-audit",
+                    rule_id=vuln.get("id", "unknown-cve"),
+                    severity="high",
+                    location=f"{dep.get('name')}=={dep.get('version')}",
+                )
+            )
+    return findings
+
+
+def evaluate(
+    findings: list[Finding],
+    threshold: str = "high",
+    baseline_keys: set[str] | None = None,
+) -> tuple[bool, list[Finding]]:
+    """Return (passed, blocking_findings).
+
+    A finding blocks when its severity is at or above the threshold and
+    its key is not in the baseline.
+    """
+    baseline_keys = baseline_keys or set()
+    cutoff = severity_rank(threshold)
+    blocking = [
+        f
+        for f in findings
+        if severity_rank(f.severity) >= cutoff and f.key not in baseline_keys
+    ]
+    return (len(blocking) == 0, blocking)
+
+
+def load_baseline(path: str) -> set[str]:
+    with open(path, encoding="utf-8") as fh:
+        data = json.load(fh)
+    return {str(k) for k in data.get("baseline_keys", [])}
+
+
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(description="AppSec severity gate")
+    parser.add_argument("--sarif", action="append", default=[], help="SARIF file")
+    parser.add_argument("--pip-audit", help="pip-audit JSON output file")
+    parser.add_argument("--baseline", help="JSON file with baseline_keys list")
+    parser.add_argument("--threshold", default="high", choices=SEVERITY_ORDER)
+    args = parser.parse_args(argv)
+
+    findings: list[Finding] = []
+    try:
+        for path in args.sarif:
+            with open(path, encoding="utf-8") as fh:
+                findings.extend(findings_from_sarif(json.load(fh)))
+        if args.pip_audit:
+            with open(args.pip_audit, encoding="utf-8") as fh:
+                findings.extend(findings_from_pip_audit(json.load(fh)))
+        baseline = load_baseline(args.baseline) if args.baseline else set()
+    except (OSError, json.JSONDecodeError) as exc:
+        print(f"gate: cannot read scanner output ({exc}); failing closed")
+        return 2
+
+    passed, blocking = evaluate(findings, args.threshold, baseline)
+    for f in blocking:
+        print(f"BLOCKING [{f.severity}] {f.tool} {f.rule_id} at {f.location}")
+    print(
+        f"gate: {len(findings)} findings, {len(blocking)} blocking "
+        f"(threshold={args.threshold}) -> {'PASS' if passed else 'FAIL'}"
+    )
+    return 0 if passed else 1
+
+
+if __name__ == "__main__":
+    sys.exit(main())

@@ -1,1 +1,36 @@
-IyEvdXNyL2Jpbi9lbnYgYmFzaAojIFJ1biB0aGUgU0FTVCBzdGFnZSBsb2NhbGx5OiBTZW1ncmVwIGFnYWluc3QgdGhlIHNhbXBsZSBhcHAsIFNBUklGIG91dC4KIyBNaXJyb3JzIHRoZSBzYXN0LXNlbWdyZXAgam9iIGluIC5naXRodWIvd29ya2Zsb3dzL2FwcHNlYy55bWwuCiMKIyBVc2FnZTogLi9zY3JpcHRzL3J1bl9zYXN0LnNoCiMgUmVxdWlyZXM6IHNlbWdyZXAgKHBpcCBpbnN0YWxsIHNlbWdyZXApIG9yIERvY2tlci4Kc2V0IC1ldW8gcGlwZWZhaWwKY2QgIiQoZGlybmFtZSAiJDAiKS8uLiIKCk9VVD0icmVzdWx0cyIKbWtkaXIgLXAgIiRPVVQiCgppZiBjb21tYW5kIC12IHNlbWdyZXAgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgc2VtZ3JlcCBzY2FuIFwKICAgIC0tY29uZmlnIHAvcHl0aG9uIFwKICAgIC0tY29uZmlnIHAvc2VjcmV0cyBcCiAgICAtLWNvbmZpZyBwL293YXNwLXRvcC10ZW4gXAogICAgLS1zYXJpZiAtLW91dHB1dCAiJE9VVC9zZW1ncmVwLnNhcmlmIiBcCiAgICAtLW1ldHJpY3Mgb2ZmIFwKICAgIGFwcC8gdG9vbHMvIHx8IHRydWUKZWxpZiBjb21tYW5kIC12IGRvY2tlciA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICBkb2NrZXIgcnVuIC0tcm0gLXYgIiRQV0Q6L3NyYyIgLXcgL3NyYyBzZW1ncmVwL3NlbWdyZXA6bGF0ZXN0IFwKICAgIHNlbWdyZXAgc2NhbiBcCiAgICAtLWNvbmZpZyBwL3B5dGhvbiBcCiAgICAtLWNvbmZpZyBwL3NlY3JldHMgXAogICAgLS1jb25maWcgcC9vd2FzcC10b3AtdGVuIFwKICAgIC0tc2FyaWYgLS1vdXRwdXQgIiRPVVQvc2VtZ3JlcC5zYXJpZiIgXAogICAgLS1tZXRyaWNzIG9mZiBcCiAgICBhcHAvIHRvb2xzLyB8fCB0cnVlCmVsc2UKICBlY2hvICJlcnJvcjogaW5zdGFsbCBzZW1ncmVwIChwaXAgaW5zdGFsbCBzZW1ncmVwKSBvciBEb2NrZXIgZmlyc3QiID4mMgogIGV4aXQgMTI3CmZpCgplY2hvICJTQVNUIGRvbmU6ICRPVVQvc2VtZ3JlcC5zYXJpZiIKZWNobyAiQXBwbHkgdGhlIGdhdGU6ICBweXRob24zIHRvb2xzL2dhdGUucHkgLS1zYXJpZiAkT1VUL3NlbWdyZXAuc2FyaWYgLS10aHJlc2hvbGQgaGlnaCIK
+#!/usr/bin/env bash
+# Run the SAST stage locally: Semgrep against the sample app, SARIF out.
+# Mirrors the sast-semgrep job in .github/workflows/appsec.yml.
+#
+# Usage: ./scripts/run_sast.sh
+# Requires: semgrep (pip install semgrep) or Docker.
+set -euo pipefail
+cd "$(dirname "$0")/.."
+
+OUT="results"
+mkdir -p "$OUT"
+
+if command -v semgrep >/dev/null 2>&1; then
+  semgrep scan \
+    --config p/python \
+    --config p/secrets \
+    --config p/owasp-top-ten \
+    --sarif --output "$OUT/semgrep.sarif" \
+    --metrics off \
+    app/ tools/ || true
+elif command -v docker >/dev/null 2>&1; then
+  docker run --rm -v "$PWD:/src" -w /src semgrep/semgrep:latest \
+    semgrep scan \
+    --config p/python \
+    --config p/secrets \
+    --config p/owasp-top-ten \
+    --sarif --output "$OUT/semgrep.sarif" \
+    --metrics off \
+    app/ tools/ || true
+else
+  echo "error: install semgrep (pip install semgrep) or Docker first" >&2
+  exit 127
+fi
+
+echo "SAST done: $OUT/semgrep.sarif"
+echo "Apply the gate:  python3 tools/gate.py --sarif $OUT/semgrep.sarif --threshold high"

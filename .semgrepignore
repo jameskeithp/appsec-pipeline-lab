@@ -1,1 +1,14 @@
-IyBTZW1ncmVwIHBhdGggZXhjbHVzaW9ucyBmb3IgYXBwc2VjLXBpcGVsaW5lLWxhYi4KIyBFdmVyeSBleGNsdXNpb24gaGVyZSBtdXN0IGJlIGp1c3RpZmllZCBpbgojIGRvY3MvZmFsc2UtcG9zaXRpdmUtc3VwcHJlc3Npb24ubWQgLS0gYW4gdW5leHBsYWluZWQgaWdub3JlIGlzIGhvdwojIHJlYWwgZmluZGluZ3MgZ28gdG8gZGllLgoKIyBUZXN0IGZpeHR1cmVzIGNvbnRhaW4gc3ludGhldGljIHNjYW5uZXIgb3V0cHV0LCBub3Qgc291cmNlIGNvZGUuCnRlc3RzLwoKIyBHZW5lcmF0ZWQgc2NhbiBvdXRwdXQgaXMgbm90IHNvdXJjZS4KcmVzdWx0cy8KCiMgTk9URTogYXBwLyBpcyBkZWxpYmVyYXRlbHkgTk9UIGV4Y2x1ZGVkLiBJdCBpcyB0aGUgdHJhaW5pbmcgdGFyZ2V0OwojIGl0cyBmaW5kaW5ncyBhcmUgcmVhbCBhbmQgZXhwZWN0ZWQuIEluIGEgcHJvZHVjdGlvbiByZXBvIHRoZSBpbnZlcnNlCiMgYXBwbGllczogZXhjbHVzaW9ucyBzaHJpbmsgb3ZlciB0aW1lIGFuZCBlYWNoIG9uZSBoYXMgYSB0aWNrZXQgKyBleHBpcnkuCg==
+# Semgrep path exclusions for appsec-pipeline-lab.
+# Every exclusion here must be justified in
+# docs/false-positive-suppression.md -- an unexplained ignore is how
+# real findings go to die.
+
+# Test fixtures contain synthetic scanner output, not source code.
+tests/
+
+# Generated scan output is not source.
+results/
+
+# NOTE: app/ is deliberately NOT excluded. It is the training target;
+# its findings are real and expected. In a production repo the inverse
+# applies: exclusions shrink over time and each one has a ticket + expiry.

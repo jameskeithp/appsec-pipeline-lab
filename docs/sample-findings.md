@@ -1,1 +1,110 @@
-IyBTYW1wbGUgZmluZGluZ3MgcmVwb3J0CgpXaGF0IHRoZSBzY2FubmVycyBhY3R1YWxseSBmb3VuZCB3aGVuIHRoaXMgbGFiIHdhcyBidWlsdCBhbmQgcnVuCmxvY2FsbHkgb24gKioyMDI2LTEwLTIxKiosIGluIHRoaXMgcHJvamVjdCdzIGJ1aWxkIGVudmlyb25tZW50CihQeXRob24gMy4xMi4zLCBMaW51eCBWTSkuIE5vdGhpbmcgaW4gdGhpcyByZXBvcnQgaXMgaWxsdXN0cmF0aXZlIG9yCnJlY29uc3RydWN0ZWQ6IGV2ZXJ5IG51bWJlciBiZWxvdyBjYW1lIG91dCBvZiBhIHRvb2wgcnVuIHdob3NlIHJhdwpvdXRwdXQgaXMgcmVwcm9kdWNpYmxlIHdpdGggdGhlIHNjcmlwdHMgaW4gYHNjcmlwdHMvYC4gV2hlcmUgYSB0b29sCmNvdWxkIG5vdCBydW4gaW4gdGhpcyBlbnZpcm9ubWVudCwgdGhpcyByZXBvcnQgc2F5cyBzbyBhbmQgZXhwbGFpbnMKd2hhdCBydW5zIGluIENJIGluc3RlYWQuCgojIyBSdW4gc3VtbWFyeQoKfCBTdGFnZSB8IFRvb2wgfCBSYW4gbG9jYWxseT8gfCBSZXN1bHQgfAp8LS0tfC0tLXwtLS18LS0tfAp8IFNBU1QgfCBTZW1ncmVwIDEuMTgyLjAgfCBZZXMgfCAxOTAgcnVsZXMsICoqOCBmaW5kaW5ncyoqIGluIGBhcHAvYXBwLnB5YCB8CnwgU0NBIHwgcGlwLWF1ZGl0IDIuMTAuMSB8IFllcyB8ICoqNDUgdW5pcXVlIGFkdmlzb3JpZXMqKiBhY3Jvc3MgYWxsIDYgcGlubmVkIGRlcGVuZGVuY2llcyB8CnwgR2F0ZSB8IGB0b29scy9nYXRlLnB5YCB8IFllcyB8IDUzIGZpbmRpbmdzIHRvdGFsLCAqKjQ2IGJsb2NraW5nLCBGQUlMIChleGl0IDEpKiogLS0gYXMgZGVzaWduZWQgfAp8IFVuaXQgdGVzdHMgfCBweXRlc3QgOS4xLjEgfCBZZXMgfCAqKjkgcGFzc2VkKiogKGB0ZXN0cy90ZXN0X2dhdGUucHlgKSB8CnwgU0FTVCAyIHwgQ29kZVFMIHwgTm8gLS0gQ0kgb25seSB8IFJlcXVpcmVzIHRoZSBDb2RlUUwgQ0xJIC8gR2l0SHViIEFjdGlvbnM7IHRoZSB3b3JrZmxvdydzIGBzYXN0LWNvZGVxbGAgam9iIHJ1bnMgaXQgd2l0aCBgc2VjdXJpdHktZXh0ZW5kZWRgIHF1ZXJpZXMgYW5kIHVwbG9hZHMgU0FSSUYuIE5vdCBydW4gbG9jYWxseSwgc28gbm8gbG9jYWwgZmluZGluZ3MgYXJlIGNsYWltZWQgZm9yIGl0LiB8CnwgREFTVCB8IE9XQVNQIFpBUCBiYXNlbGluZSB8IE5vIC0tIG5vIERvY2tlciBpbiB0aGlzIFZNIHwgYHNjcmlwdHMvcnVuX2Rhc3Quc2hgIGFuZCB0aGUgQ0kgYGRhc3RgIGpvYiBib3RoIG5lZWQgdGhlIFpBUCBjb250YWluZXIgLyBgemFwcm94eS9hY3Rpb24tYmFzZWxpbmVgLiBEb2NrZXIgaXMgbm90IGluc3RhbGxlZCBpbiB0aGlzIGJ1aWxkIGVudmlyb25tZW50ICh2ZXJpZmllZCksIHNvIG5vIFpBUCByZXN1bHRzIGFyZSByZXBvcnRlZCBoZXJlIHJhdGhlciB0aGFuIGludmVudGVkLiBFeHBlY3RlZCBDSSBmaW5kaW5ncyBvbiB0aGlzIHRhcmdldCBpbmNsdWRlIG1pc3NpbmcgQ29udGVudC1TZWN1cml0eS1Qb2xpY3kgYW5kIGFudGktY2xpY2tqYWNraW5nIGhlYWRlcnMsIHdoaWNoIGAuemFwL3J1bGVzLnRzdmAgc2V0cyB0byBgRkFJTGAsIHBsdXMgdGhlIHJlZmxlY3RlZCBpbnB1dCBvbiBgL3NlYXJjaGAgZm9yIHBhc3NpdmUgcnVsZXMgdG8gb2JzZXJ2ZS4gfAoKUmVwcm9kdWNlIHRoZSBsb2NhbCBzdGFnZXM6CgpgYGBiYXNoCnBpcCBpbnN0YWxsIHNlbWdyZXAgcGlwLWF1ZGl0IHB5dGVzdAouL3NjcmlwdHMvcnVuX3Nhc3Quc2ggICAgICMgLT4gcmVzdWx0cy9zZW1ncmVwLnNhcmlmCi4vc2NyaXB0cy9ydW5fc2NhLnNoICAgICAgIyAtPiByZXN1bHRzL3BpcC1hdWRpdC5qc29uCnB5dGhvbjMgdG9vbHMvZ2F0ZS5weSAtLXNhcmlmIHJlc3VsdHMvc2VtZ3JlcC5zYXJpZiBcCiAgICAgICAgICAgICAgICAgICAgICAtLXBpcC1hdWRpdCByZXN1bHRzL3BpcC1hdWRpdC5qc29uIFwKICAgICAgICAgICAgICAgICAgICAgIC0tYmFzZWxpbmUgcG9saWN5L2Jhc2VsaW5lLmpzb24gLS10aHJlc2hvbGQgaGlnaApweXRob24zIC1tIHB5dGVzdCB0ZXN0cy8gLXEKYGBgCgojIyBTQVNUIGZpbmRpbmdzIChTZW1ncmVwLCBjb25maWdzOiBwL3B5dGhvbiwgcC9zZWNyZXRzLCBwL293YXNwLXRvcC10ZW4pCgpBbGwgOCBmaW5kaW5ncyBhcmUgdHJ1ZSBwb3NpdGl2ZXMgYWdhaW5zdCB0aGUgZGVsaWJlcmF0ZQp2dWxuZXJhYmlsaXRpZXMgaW4gYGFwcC9hcHAucHlgOgoKfCAjIHwgUnVsZSB8IExvY2F0aW9uIHwgRGVsaWJlcmF0ZSBmbGF3IHwKfC0tLXwtLS18LS0tfC0tLXwKfCAxIHwgYHB5dGhvbi5mbGFzay5zZWN1cml0eS5pbmplY3Rpb24udGFpbnRlZC1zcWwtc3RyaW5nYCB8IGBhcHAvYXBwLnB5OjY3YCB8IFNRTCBidWlsdCBieSBzdHJpbmcgZm9ybWF0dGluZyBmcm9tIHJlcXVlc3QgaW5wdXQgKFNRTCBpbmplY3Rpb24pIHwKfCAyIHwgYHB5dGhvbi5kamFuZ28uc2VjdXJpdHkuaW5qZWN0aW9uLnNxbC5zcWwtaW5qZWN0aW9uLXVzaW5nLWRiLWN1cnNvci1leGVjdXRlYCB8IGBhcHAvYXBwLnB5OjY1YCB8IFRhaW50ZWQgZGF0YSByZWFjaGluZyBgY3Vyc29yLmV4ZWN1dGUoKWAgKHNhbWUgU1FMaSwgc2Vjb25kIHJ1bGUpIHwKfCAzIHwgYHB5dGhvbi5mbGFzay5zZWN1cml0eS5hdWRpdC5kaXJlY3RseS1yZXR1cm5lZC1mb3JtYXQtc3RyaW5nYCB8IGBhcHAvYXBwLnB5OjgzYCB8IEZvcm1hdHRlZCBzdHJpbmcgcmV0dXJuZWQgZGlyZWN0bHkgZnJvbSBhIEZsYXNrIHJvdXRlIChyZWZsZWN0ZWQgWFNTKSB8CnwgNCB8IGBweXRob24uZGphbmdvLnNlY3VyaXR5LmluamVjdGlvbi5yYXctaHRtbC1mb3JtYXRgIHwgYGFwcC9hcHAucHk6ODNgIHwgVXNlciBpbnB1dCBpbiBtYW51YWxseSBidWlsdCBIVE1MIChzYW1lIFhTUykgfAp8IDUgfCBgcHl0aG9uLmZsYXNrLnNlY3VyaXR5LmluamVjdGlvbi5yYXctaHRtbC1jb25jYXQucmF3LWh0bWwtZm9ybWF0YCB8IGBhcHAvYXBwLnB5OjgzYCB8IFNhbWUgWFNTLCB0aGlyZCBydWxlIHwKfCA2IHwgYHB5dGhvbi5sYW5nLnNlY3VyaXR5Lmluc2VjdXJlLWhhc2gtYWxnb3JpdGhtcy1tZDVgIHwgYGFwcC9hcHAucHk6OTdgIHwgTUQ1IHVzZWQgYXMgYSBoYXNoIGFsZ29yaXRobSB8CnwgNyB8IGBweXRob24ubGFuZy5zZWN1cml0eS5hdWRpdC5tZDUtdXNlZC1hcy1wYXNzd29yZGAgfCBgYXBwL2FwcC5weTo5N2AgfCBNRDUgdXNlZCBmb3IgcGFzc3dvcmQgc3RvcmFnZSB8CnwgOCB8IGBweXRob24uZmxhc2suc2VjdXJpdHkuYXVkaXQuZGVidWctZW5hYmxlZGAgfCBgYXBwL2FwcC5weToxMTlgIHwgRmxhc2sgYGRlYnVnPVRydWVgIHwKClNldmVyaXR5IG5vdGU6IFNlbWdyZXAncyBTQVJJRiBleHBvcnQgZnJvbSB0aGlzIHZlcnNpb24gY2FycmllcyB0aGUKcnVsZXMnIEVSUk9SL1dBUk5JTkcgbGV2ZWxzIGluIGBkZWZhdWx0Q29uZmlndXJhdGlvbi5sZXZlbGA7CmB0b29scy9nYXRlLnB5YCByZWFkcyB0aGF0IChjb3ZlcmVkIGJ5IGEgdW5pdCB0ZXN0KS4gT25lIGZpbmRpbmcgKHRoZQp0YWludGVkIFNRTCBzdHJpbmcpIGlzIEVSUk9SIGFuZCBibG9ja3MgYXQgdGhlIGBoaWdoYCB0aHJlc2hvbGQ7IHRoZQpyZXN0IGFyZSBXQVJOSU5HIChub3JtYWxpemVkIHRvIG1lZGl1bSkgYW5kIHJlcG9ydCB3aXRob3V0IGJsb2NraW5nLgoKIyMjIEhvbmVzdCBtaXNzZXMKClR3byBwbGFudGVkIGZsYXdzIHdlcmUgKipub3QqKiBmbGFnZ2VkIGJ5IHRoZSBsb2NhbCBTZW1ncmVwIHBhY2tzLCBhbmQKdGhpcyByZXBvcnQgbmFtZXMgdGhlbSBpbnN0ZWFkIG9mIHJvdW5kaW5nIHRoZSByZXN1bHQgdXAgdG8gcGVyZmVjdDoKCi0gYHBpY2tsZS5sb2Fkc2Agb24gcmVxdWVzdCBkYXRhIChgYXBwL2FwcC5weWAsIGAvcmVzdG9yZWApOiBub3QKICBtYXRjaGVkIGJ5IHAvcHl0aG9uICsgcC9vd2FzcC10b3AtdGVuIGFzIHJ1biBoZXJlLiBDb2RlUUwncwogIHNlY3VyaXR5LWV4dGVuZGVkIHNldCAoQ0kpIGluY2x1ZGVzIHVuc2FmZS1kZXNlcmlhbGl6YXRpb24gcXVlcmllczsKICB3aGV0aGVyIGl0IGZpcmVzIGlzIGEgQ0kgcmVzdWx0LCBub3QgY2xhaW1lZCBoZXJlLgotIFRoZSBoYXJkY29kZWQgc2VjcmV0IHN0cmluZ3M6IHRoZSB2YWx1ZXMgYXJlIGRlbGliZXJhdGVseSBmYWtlCiAgKGBzay1saXZlLUVYQU1QTEUtLi4uYCksIGFuZCBlbnRyb3B5L3BhdHRlcm4tYmFzZWQgc2VjcmV0IHJ1bGVzIGFyZQogIHR1bmVkIHRvIGF2b2lkIGV4YWN0bHkgc3VjaCBleGFtcGxlcy4gQSByZWFsIGxlYWtlZCBrZXkgaXMgd2hhdAogIHAvc2VjcmV0cyBhbmQgcHVzaC1wcm90ZWN0aW9uIGV4aXN0IHRvIGNhdGNoLgoKTGVzc29uIHRoZSBsYWIgaXMgYnVpbHQgdG8gdGVhY2g6IHNjYW5uZXIgY292ZXJhZ2UgaXMgcGVyLXJ1bGUgYW5kCnBlci1wYWNrLiAiVGhlIFNBU1QgcGFzc2VkIiBuZXZlciBtZWFucyAidGhlcmUgYXJlIG5vIGJ1Z3MiOyBpdCBtZWFucwp0aGVzZSBydWxlcyBmb3VuZCBub3RoaW5nLCB3aGljaCBpcyB3aHkgdGhlIHBpcGVsaW5lIGxheWVycyBTQVNULCBTQ0EsCkRBU1QsIGFuZCBodW1hbiByZXZpZXcuCgojIyBTQ0EgZmluZGluZ3MgKHBpcC1hdWRpdCwgYWdhaW5zdCBgYXBwL3JlcXVpcmVtZW50cy50eHRgKQoKcGlwLWF1ZGl0IHJlcG9ydGVkIGFkdmlzb3JpZXMgYWdhaW5zdCAqKmV2ZXJ5KiogcGlubmVkIGRlcGVuZGVuY3kuCkl0cyByYXcgSlNPTiByZXBlYXRzIGFuIGFkdmlzb3J5IG9uY2UgcGVyIGFmZmVjdGVkIHZlcnNpb24gcmFuZ2U7CmB0b29scy9nYXRlLnB5YCBkZWR1cGxpY2F0ZXMgdG8gb25lIGZpbmRpbmcgcGVyIChwYWNrYWdlLCBhZHZpc29yeSkuClVuaXF1ZSBjb3VudHMgZnJvbSB0aGUgYWN0dWFsIHJ1bjoKCnwgUGFja2FnZSB8IFBpbm5lZCB8IFVuaXF1ZSBhZHZpc29yaWVzIHwgRXhhbXBsZSB8CnwtLS18LS0tfC0tLXwtLS18CnwgRmxhc2sgfCAyLjIuMyB8IDIgfCBQWVNFQy0yMDIzLTYyIChDVkUtMjAyMy0zMDg2MSwgcmVzcG9uc2UgY2FjaGluZyAvIHNlc3Npb24gY29va2llIGxlYWspIHwKfCBXZXJremV1ZyB8IDIuMi4zIHwgOSB8IFBZU0VDLTIwMjMtMjIxIGFuZCBlaWdodCBsYXRlciBhZHZpc29yaWVzIHwKfCBKaW5qYTIgfCAzLjEuMiB8IDUgfCBQWVNFQy0yMDI2LTE0NzEgLi4gUFlTRUMtMjAyNi0xNDc1IHwKfCByZXF1ZXN0cyB8IDIuMjguMSB8IDQgfCBQWVNFQy0yMDIzLTc0IGFuZCB0aHJlZSBsYXRlciBhZHZpc29yaWVzIHwKfCB1cmxsaWIzIHwgMS4yNi4xNCB8IDEwIHwgUFlTRUMtMjAyMy0xOTIsIFBZU0VDLTIwMjMtMjEyIChyZWRpcmVjdCBoYW5kbGluZykgYW5kIGVpZ2h0IGxhdGVyIHwKfCBjcnlwdG9ncmFwaHkgfCAzOS4wLjAgfCAxNSB8IFBZU0VDLTIwMjMtMTEgcGx1cyBHSFNBIGFkdmlzb3JpZXMgZm9yIHRoZSBidW5kbGVkIE9wZW5TU0wgfAoKUGVyIHRoZSB0cmlhZ2UgcG9saWN5IChgZG9jcy90cmlhZ2UtYW5kLXNsYXMubWRgKSwgcGlwLWF1ZGl0IGZpbmRpbmdzCmFyZSBnYXRlZCBhcyAqKmhpZ2gqKiB3aGlsZSBhIGZpeCB2ZXJzaW9uIGV4aXN0cywgd2hpY2ggaXMgd2h5IDQ1IG9mCnRoZSA0NiBibG9ja2luZyBmaW5kaW5ncyBjb21lIGZyb20gdGhpcyBzdGFnZS4gSW4gYSByZWFsIGNvZGViYXNlIHRoYXQKdm9sdW1lIGF0IGFkb3B0aW9uIHRpbWUgaXMgZXhhY3RseSB3aGF0IHRoZSBiYXNlbGluZSBwcm9jZXNzIGV4aXN0cwpmb3I6IHRyaWFnZSBvbmNlLCByZWNvcmQgYWNjZXB0ZWQgcmlzayB3aXRoIGV4cGlyeSwgcmF0Y2hldCBmcm9tCnRoZXJlLiBPbiB0aGlzIGxhYiB0aGUgcGlucyBzdGF5IHZ1bG5lcmFibGUgb24gcHVycG9zZS4KCiMjIEdhdGUgcmVzdWx0CgpgYGAKJCBweXRob24zIHRvb2xzL2dhdGUucHkgLS1zYXJpZiByZXN1bHRzL3NlbWdyZXAuc2FyaWYgXAogICAgICAgICAgICAgICAgICAgICAgICAtLXBpcC1hdWRpdCByZXN1bHRzL3BpcC1hdWRpdC5qc29uIFwKICAgICAgICAgICAgICAgICAgICAgICAgLS1iYXNlbGluZSBwb2xpY3kvYmFzZWxpbmUuanNvbiAtLXRocmVzaG9sZCBoaWdoCmdhdGU6IDUzIGZpbmRpbmdzLCA0NiBibG9ja2luZyAodGhyZXNob2xkPWhpZ2gpIC0+IEZBSUwgICAoZXhpdCBjb2RlIDEpCmBgYAoKVGhlIGdhdGUgZmFpbGluZyBvbiB0aGlzIHJlcG9zaXRvcnkgaXMgdGhlIHN1Y2Nlc3MgY3JpdGVyaW9uOiBpdApwcm92ZXMgdGhlIHBvbGljeSBmaXJlcyBvbiByZWFsIGZpbmRpbmdzLiBUaGUgZ2F0ZSBhbHNvIGZhaWxzIGNsb3NlZAooZXhpdCAyKSBvbiBtaXNzaW5nIG9yIHVucGFyc2VhYmxlIHNjYW5uZXIgb3V0cHV0OyBib3RoIGJlaGF2aW9ycyBhcmUKY292ZXJlZCBieSB1bml0IHRlc3RzLgo=
+# Sample findings report
+
+What the scanners actually found when this lab was built and run
+locally on **2026-10-21**, in this project's build environment
+(Python 3.12.3, Linux VM). Nothing in this report is illustrative or
+reconstructed: every number below came out of a tool run whose raw
+output is reproducible with the scripts in `scripts/`. Where a tool
+could not run in this environment, this report says so and explains
+what runs in CI instead.
+
+## Run summary
+
+| Stage | Tool | Ran locally? | Result |
+|---|---|---|---|
+| SAST | Semgrep 1.182.0 | Yes | 190 rules, **8 findings** in `app/app.py` |
+| SCA | pip-audit 2.10.1 | Yes | **45 unique advisories** across all 6 pinned dependencies |
+| Gate | `tools/gate.py` | Yes | 53 findings total, **46 blocking, FAIL (exit 1)** -- as designed |
+| Unit tests | pytest 9.1.1 | Yes | **9 passed** (`tests/test_gate.py`) |
+| SAST 2 | CodeQL | No -- CI only | Requires the CodeQL CLI / GitHub Actions; the workflow's `sast-codeql` job runs it with `security-extended` queries and uploads SARIF. Not run locally, so no local findings are claimed for it. |
+| DAST | OWASP ZAP baseline | No -- no Docker in this VM | `scripts/run_dast.sh` and the CI `dast` job both need the ZAP container / `zaproxy/action-baseline`. Docker is not installed in this build environment (verified), so no ZAP results are reported here rather than invented. Expected CI findings on this target include missing Content-Security-Policy and anti-clickjacking headers, which `.zap/rules.tsv` sets to `FAIL`, plus the reflected input on `/search` for passive rules to observe. |
+
+Reproduce the local stages:
+
+```bash
+pip install semgrep pip-audit pytest
+./scripts/run_sast.sh     # -> results/semgrep.sarif
+./scripts/run_sca.sh      # -> results/pip-audit.json
+python3 tools/gate.py --sarif results/semgrep.sarif \
+                      --pip-audit results/pip-audit.json \
+                      --baseline policy/baseline.json --threshold high
+python3 -m pytest tests/ -q
+```
+
+## SAST findings (Semgrep, configs: p/python, p/secrets, p/owasp-top-ten)
+
+All 8 findings are true positives against the deliberate
+vulnerabilities in `app/app.py`:
+
+| # | Rule | Location | Deliberate flaw |
+|---|---|---|---|
+| 1 | `python.flask.security.injection.tainted-sql-string` | `app/app.py:67` | SQL built by string formatting from request input (SQL injection) |
+| 2 | `python.django.security.injection.sql.sql-injection-using-db-cursor-execute` | `app/app.py:65` | Tainted data reaching `cursor.execute()` (same SQLi, second rule) |
+| 3 | `python.flask.security.audit.directly-returned-format-string` | `app/app.py:83` | Formatted string returned directly from a Flask route (reflected XSS) |
+| 4 | `python.django.security.injection.raw-html-format` | `app/app.py:83` | User input in manually built HTML (same XSS) |
+| 5 | `python.flask.security.injection.raw-html-concat.raw-html-format` | `app/app.py:83` | Same XSS, third rule |
+| 6 | `python.lang.security.insecure-hash-algorithms-md5` | `app/app.py:97` | MD5 used as a hash algorithm |
+| 7 | `python.lang.security.audit.md5-used-as-password` | `app/app.py:97` | MD5 used for password storage |
+| 8 | `python.flask.security.audit.debug-enabled` | `app/app.py:119` | Flask `debug=True` |
+
+Severity note: Semgrep's SARIF export from this version carries the
+rules' ERROR/WARNING levels in `defaultConfiguration.level`;
+`tools/gate.py` reads that (covered by a unit test). One finding (the
+tainted SQL string) is ERROR and blocks at the `high` threshold; the
+rest are WARNING (normalized to medium) and report without blocking.
+
+### Honest misses
+
+Two planted flaws were **not** flagged by the local Semgrep packs, and
+this report names them instead of rounding the result up to perfect:
+
+- `pickle.loads` on request data (`app/app.py`, `/restore`): not
+  matched by p/python + p/owasp-top-ten as run here. CodeQL's
+  security-extended set (CI) includes unsafe-deserialization queries;
+  whether it fires is a CI result, not claimed here.
+- The hardcoded secret strings: the values are deliberately fake
+  (`sk-live-EXAMPLE-...`), and entropy/pattern-based secret rules are
+  tuned to avoid exactly such examples. A real leaked key is what
+  p/secrets and push-protection exist to catch.
+
+Lesson the lab is built to teach: scanner coverage is per-rule and
+per-pack. "The SAST passed" never means "there are no bugs"; it means
+these rules found nothing, which is why the pipeline layers SAST, SCA,
+DAST, and human review.
+
+## SCA findings (pip-audit, against `app/requirements.txt`)
+
+pip-audit reported advisories against **every** pinned dependency.
+Its raw JSON repeats an advisory once per affected version range;
+`tools/gate.py` deduplicates to one finding per (package, advisory).
+Unique counts from the actual run:
+
+| Package | Pinned | Unique advisories | Example |
+|---|---|---|---|
+| Flask | 2.2.3 | 2 | PYSEC-2023-62 (CVE-2023-30861, response caching / session cookie leak) |
+| Werkzeug | 2.2.3 | 9 | PYSEC-2023-221 and eight later advisories |
+| Jinja2 | 3.1.2 | 5 | PYSEC-2026-1471 .. PYSEC-2026-1475 |
+| requests | 2.28.1 | 4 | PYSEC-2023-74 and three later advisories |
+| urllib3 | 1.26.14 | 10 | PYSEC-2023-192, PYSEC-2023-212 (redirect handling) and eight later |
+| cryptography | 39.0.0 | 15 | PYSEC-2023-11 plus GHSA advisories for the bundled OpenSSL |
+
+Per the triage policy (`docs/triage-and-slas.md`), pip-audit findings
+are gated as **high** while a fix version exists, which is why 45 of
+the 46 blocking findings come from this stage. In a real codebase that
+volume at adoption time is exactly what the baseline process exists
+for: triage once, record accepted risk with expiry, ratchet from
+there. On this lab the pins stay vulnerable on purpose.
+
+## Gate result
+
+```
+$ python3 tools/gate.py --sarif results/semgrep.sarif \
+                        --pip-audit results/pip-audit.json \
+                        --baseline policy/baseline.json --threshold high
+gate: 53 findings, 46 blocking (threshold=high) -> FAIL   (exit code 1)
+```
+
+The gate failing on this repository is the success criterion: it
+proves the policy fires on real findings. The gate also fails closed
+(exit 2) on missing or unparseable scanner output; both behaviors are
+covered by unit tests.

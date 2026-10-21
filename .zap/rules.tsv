@@ -1,1 +1,10 @@
-IyBaQVAgYmFzZWxpbmUgcnVsZXMgY29uZmlndXJhdGlvbiBmb3IgYXBwc2VjLXBpcGVsaW5lLWxhYi4KIyBGb3JtYXQ6IHJ1bGUtaWQgPFRBQj4gdGhyZXNob2xkIChJR05PUkUgLyBXQVJOIC8gRkFJTCkgPFRBQj4gb3B0aW9uYWwgY29tbWVudAojIFBvbGljeTogRkFJTCBydWxlcyBicmVhayB0aGUgYnVpbGQgKHdpdGggZmFpbF9hY3Rpb24gaW4gQ0kpOyBXQVJOIHJ1bGVzCiMgYXJlIHJlcG9ydGVkIGFuZCB0cmlhZ2VkIGFnYWluc3QgdGhlIFNMQXMgaW4gZG9jcy90cmlhZ2UtYW5kLXNsYXMubWQ7CiMgSUdOT1JFIGlzIHJlc2VydmVkIGZvciBhY2NlcHRlZCBmaW5kaW5ncyBhbmQgbXVzdCByZWZlcmVuY2UgYSB0aWNrZXQuCjEwMDM4CUZBSUwJQ29udGVudCBTZWN1cml0eSBQb2xpY3kgaGVhZGVyIG1pc3Npbmcgb24gdGhlIHRhcmdldCBhcHAgLS0gcmVhbCBmaW5kaW5nLCBrZXB0IEZBSUwgdG8gZGVtb25zdHJhdGUgZ2F0aW5nCjEwMDIwCUZBSUwJQW50aS1jbGlja2phY2tpbmcgaGVhZGVyIG1pc3NpbmcgLS0gcmVhbCBmaW5kaW5nIG9uIHRoaXMgdGFyZ2V0CjEwMDIxCVdBUk4JWC1Db250ZW50LVR5cGUtT3B0aW9ucyBoZWFkZXIgbWlzc2luZwoxMDAxMQlXQVJOCUNvb2tpZSB3aXRob3V0IEh0dHBPbmx5IC8gU2VjdXJlIGZsYWdzIChsYWIgYXBwIHNldHMgbm8gY29va2llczsga2VwdCBXQVJOKQo5MDAzNAlJR05PUkUJTGFiLW9ubHk6IHRoZSBpbi1tZW1vcnkgU1FMaXRlIGRlbW8gaGFzIG5vIHByb2R1Y3Rpb24gZGF0YTsgc2VlIGRvY3MvZmFsc2UtcG9zaXRpdmUtc3VwcHJlc3Npb24ubWQK
+# ZAP baseline rules configuration for appsec-pipeline-lab.
+# Format: rule-id <TAB> threshold (IGNORE / WARN / FAIL) <TAB> optional comment
+# Policy: FAIL rules break the build (with fail_action in CI); WARN rules
+# are reported and triaged against the SLAs in docs/triage-and-slas.md;
+# IGNORE is reserved for accepted findings and must reference a ticket.
+10038	FAIL	Content Security Policy header missing on the target app -- real finding, kept FAIL to demonstrate gating
+10020	FAIL	Anti-clickjacking header missing -- real finding on this target
+10021	WARN	X-Content-Type-Options header missing
+10011	WARN	Cookie without HttpOnly / Secure flags (lab app sets no cookies; kept WARN)
+90034	IGNORE	Lab-only: the in-memory SQLite demo has no production data; see docs/false-positive-suppression.md

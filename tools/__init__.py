@@ -1,1 +1,1 @@
-IiIiVG9vbHMgcGFja2FnZSBmb3IgdGhlIGFwcHNlYy1waXBlbGluZS1sYWIgc2V2ZXJpdHkgZ2F0ZS4iIiIK
+"""Tools package for the appsec-pipeline-lab severity gate."""

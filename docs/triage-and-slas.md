@@ -1,1 +1,71 @@
-IyBUcmlhZ2UgYW5kIHNldmVyaXR5IFNMQXMKCkhvdyBhIGZpbmRpbmcgaW4gdGhpcyBwaXBlbGluZSBiZWNvbWVzIGZpeGVkIHdvcmssIGFuZCBob3cgZmFzdC4gVGhlCnBvbGljeSB0aGUgQ0kgZ2F0ZSBlbmZvcmNlcyAoYHRvb2xzL2dhdGUucHlgKSBpcyB0aGUgZmxvb3Igb2YgdGhpcwpkb2N1bWVudCwgbm90IHRoZSB3aG9sZSBvZiBpdDogdGhlIGdhdGUgYmxvY2tzIG1lcmdlcywgaHVtYW5zIG93biB0aGUKcmVzdC4KCiMjIFNldmVyaXR5IGRlZmluaXRpb25zCgpTZXZlcml0eSBpcyBhc3NpZ25lZCBieSB0aGUgc2Nhbm5lciBhbmQgbm9ybWFsaXplZCBieSBgdG9vbHMvZ2F0ZS5weWAKb250byBvbmUgbGFkZGVyOiBgbm90ZSA8IGxvdyA8IG1lZGl1bSA8IGhpZ2ggPCBjcml0aWNhbGAuIFdoZXJlIGEgdG9vbApkb2VzIG5vdCBwdWJsaXNoIHNldmVyaXR5IChwaXAtYXVkaXQncyBKU09OIGNhcnJpZXMgbm8gcGVyLUNWRSBzY29yZSksCnRoZSBmaW5kaW5nIGRlZmF1bHRzIGNvbnNlcnZhdGl2ZWx5OgoKfCBTb3VyY2UgfCBNYXBwaW5nIHwKfC0tLXwtLS18CnwgU2VtZ3JlcCB8IFJ1bGUgc2V2ZXJpdHksIGVsc2UgU0FSSUYgbGV2ZWw6IGVycm9yIC0+IGhpZ2gsIHdhcm5pbmcgLT4gbWVkaXVtLCBub3RlIC0+IGxvdyB8CnwgQ29kZVFMIHwgU0FSSUYgbGV2ZWwgYW5kIHJ1bGUgcHJlY2lzaW9uIGZyb20gdGhlIFNlY3VyaXR5IHRhYiB8CnwgcGlwLWF1ZGl0IHwgQWx3YXlzICoqaGlnaCoqIHdoaWxlIGEgZml4IHZlcnNpb24gZXhpc3RzOiBhIGRlcGVuZGVuY3kgd2l0aCBhIHB1Ymxpc2hlZCBDVkUgYW5kIGEgcHVibGlzaGVkIGZpeCBpcyB0aGUgY2hlYXBlc3QgY2xhc3Mgb2YgZmluZGluZyB0byByZW1lZGlhdGUsIGFuZCB0aGUgU0NBIHN0YWdlIGV4aXN0cyB0byBrZWVwIGl0IG91dCB8CnwgWkFQIGJhc2VsaW5lIHwgSGlnaCBhbGVydHMgZmFpbCB0aGUgREFTVCBqb2IgKGBmYWlsX2FjdGlvbmApOyBXQVJOIHJ1bGVzIGluIGAuemFwL3J1bGVzLnRzdmAgYXJlIHRyaWFnZWQgYXMgbWVkaXVtIGJ5IGRlZmF1bHQgfAoKQSBodW1hbiB0cmlhZ2VyIGNhbiByYWlzZSBvciBsb3dlciBzZXZlcml0eSB3aXRoIGEgd3JpdHRlbiByYXRpb25hbGUgaW4KdGhlIHRpY2tldCAoZXhwbG9pdGFiaWxpdHkgaW4gdGhpcyBhcHAncyBjb250ZXh0LCBjb21wZW5zYXRpbmcKY29udHJvbHMsIGRhdGEgc2Vuc2l0aXZpdHkpLiBTY2FubmVyIHNldmVyaXR5IGlzIHRoZSBzdGFydGluZyBwb2ludCwKbm90IHRoZSB2ZXJkaWN0LgoKIyMgUmVtZWRpYXRpb24gU0xBcwoKQ2xvY2sgc3RhcnRzIGF0IHRyaWFnZSBjb25maXJtYXRpb24sIG5vdCBhdCBzY2FuIHRpbWUuCgp8IFNldmVyaXR5IHwgVHJpYWdlIHdpdGhpbiB8IEZpeCBvciBhcHByb3ZlZCBleGNlcHRpb24gd2l0aGluIHwgR2F0ZSBiZWhhdmlvciB8CnwtLS18LS0tfC0tLXwtLS18CnwgQ3JpdGljYWwgfCA0IGJ1c2luZXNzIGhvdXJzIHwgMjQgaG91cnMgfCBCbG9ja3MgbWVyZ2UgfAp8IEhpZ2ggfCAxIGJ1c2luZXNzIGRheSB8IDcgY2FsZW5kYXIgZGF5cyB8IEJsb2NrcyBtZXJnZSB8CnwgTWVkaXVtIHwgMyBidXNpbmVzcyBkYXlzIHwgMzAgY2FsZW5kYXIgZGF5cyB8IFdhcm5zOyB0aWNrZXQgcmVxdWlyZWQgfAp8IExvdyAvIG5vdGUgfCA1IGJ1c2luZXNzIGRheXMgfCA5MCBjYWxlbmRhciBkYXlzIG9yIGJhY2tsb2cgfCBSZXBvcnRlZCBvbmx5IHwKClNMQSBicmVhY2hlcyBlc2NhbGF0ZSB0byB0aGUgZW5naW5lZXJpbmcgbWFuYWdlciBhbmQgdGhlIEFwcFNlYyBsZWFkCmpvaW50bHkuIEFuIFNMQSBpcyBhIGNvbW1pdG1lbnQgdG8gcmVzcG9uZCwgbm90IGEgcHJvbWlzZSB0aGF0IGV2ZXJ5CmZpeCBpcyB0cml2aWFsOyB3aGVyZSBhIGZpeCBnZW51aW5lbHkgY2Fubm90IGxhbmQgaW4gd2luZG93LCB0aGUKZXhjZXB0aW9uIHByb2Nlc3MgYmVsb3cgaXMgdGhlIGhvbmVzdCBwYXRoLCBub3Qgc2lsZW50IGV4cGlyeS4KCiMjIFRoZSBnYXRpbmcgcG9saWN5ICh3aGF0IENJIGFjdHVhbGx5IGVuZm9yY2VzKQoKLSBUaHJlc2hvbGQ6ICoqaGlnaCoqLiBBbnkgKm5ldyogZmluZGluZyBhdCBoaWdoIG9yIGNyaXRpY2FsIGJsb2NrcwogIHRoZSBtZXJnZS4gIk5ldyIgbWVhbnMgaXRzIGtleQogIChgdG9vbHxydWxlX2lkfGxvY2F0aW9uYCwgc2VlIGB0b29scy9nYXRlLnB5YCkgaXMgbm90IGluCiAgYHBvbGljeS9iYXNlbGluZS5qc29uYC4KLSBUaGUgYmFzZWxpbmUgaXMgdGhlIGFkb3B0aW9uIG1lY2hhbmlzbTogYSB0ZWFtIHR1cm5pbmcgdGhpcyBwaXBlbGluZQogIG9uIGZvciBhIGxlZ2FjeSBjb2RlYmFzZSB0cmlhZ2VzIGV4aXN0aW5nIGZpbmRpbmdzIG9uY2UsIHJlY29yZHMgdGhlCiAgYWNjZXB0ZWQgb25lcyBpbiB0aGUgYmFzZWxpbmUgd2l0aCB0aWNrZXQgcmVmZXJlbmNlcyBhbmQgZXhwaXJ5CiAgZGF0ZXMsIGFuZCBmcm9tIHRoYXQgZGF5IGZvcndhcmQgdGhlIHJhdGNoZXQgb25seSB0aWdodGVucy4KLSBUaGUgZ2F0ZSAqKmZhaWxzIGNsb3NlZCoqIChleGl0IGNvZGUgMikgaWYgc2Nhbm5lciBvdXRwdXQgaXMgbWlzc2luZwogIG9yIHVucGFyc2VhYmxlLiBBIGJyb2tlbiBzY2FubmVyIG11c3QgbmV2ZXIgbG9vayBsaWtlIGEgY2xlYW4gc2Nhbi4KLSBPbiB0aGlzIGxhYiByZXBvc2l0b3J5IHRoZSBnYXRlIGZhaWxzIGJ5IGRlc2lnbjogdGhlIHNhbXBsZSBhcHAncwogIGZpbmRpbmdzIGFyZSByZWFsLCB1bnBhdGNoZWQsIGFuZCB1bmJhc2VsaW5lZC4gUnVubmluZyB0aGUgZ2F0ZQogIGxvY2FsbHkgc2hvd3MgdGhlIGV4YWN0IGZpbmRpbmdzIGEgcmVhbCB0ZWFtIHdvdWxkIHRyaWFnZSBmaXJzdC4KCiMjIEZpbmRpbmcgbGlmZWN5Y2xlCgpgYGAKc2NhbiAtPiBTQVJJRi9KU09OIGFydGlmYWN0IC0+IGdhdGUgKG5ldyBoaWdoL2NyaXRpY2FsIGJsb2NrcykKICAgICAtPiBHaXRIdWIgU2VjdXJpdHkgdGFiIChTZW1ncmVwICsgQ29kZVFMIFNBUklGKQogICAgIC0+IHRyaWFnZSAoY29uZmlybSwgc2V2ZXJpdHksIG93bmVyLCBkdWUgZGF0ZSBwZXIgU0xBKQogICAgIC0+IGZpeCBQUiAocmUtc2NhbiBtdXN0IHNob3cgdGhlIGZpbmRpbmcgZ29uZSkKICAgICAtPiBjbG9zZSwgb3IgZXhjZXB0aW9uIChiYXNlbGluZSBlbnRyeSArIHRpY2tldCArIGV4cGlyeSkKYGBgCgpFdmVyeSBjb25maXJtZWQgZmluZGluZyBnZXRzIGEgdGlja2V0IHdpdGg6IHNjYW5uZXIsIHJ1bGUgSUQsIGxvY2F0aW9uLAp0aGUgZGF0YS1mbG93IG9yIHJlcXVlc3QgdGhhdCBwcm92ZXMgaXQsIHRoZSBmaXggb3IgdGhlIGV4Y2VwdGlvbiwgYW5kCnRoZSBTTEEgZHVlIGRhdGUuIEZpbmRpbmdzIGFyZSBuZXZlciBjbG9zZWQgZnJvbSB0aGUgc2Nhbm5lciBVSSBhbG9uZS4K
+# Triage and severity SLAs
+
+How a finding in this pipeline becomes fixed work, and how fast. The
+policy the CI gate enforces (`tools/gate.py`) is the floor of this
+document, not the whole of it: the gate blocks merges, humans own the
+rest.
+
+## Severity definitions
+
+Severity is assigned by the scanner and normalized by `tools/gate.py`
+onto one ladder: `note < low < medium < high < critical`. Where a tool
+does not publish severity (pip-audit's JSON carries no per-CVE score),
+the finding defaults conservatively:
+
+| Source | Mapping |
+|---|---|
+| Semgrep | Rule severity, else SARIF level: error -> high, warning -> medium, note -> low |
+| CodeQL | SARIF level and rule precision from the Security tab |
+| pip-audit | Always **high** while a fix version exists: a dependency with a published CVE and a published fix is the cheapest class of finding to remediate, and the SCA stage exists to keep it out |
+| ZAP baseline | High alerts fail the DAST job (`fail_action`); WARN rules in `.zap/rules.tsv` are triaged as medium by default |
+
+A human triager can raise or lower severity with a written rationale in
+the ticket (exploitability in this app's context, compensating
+controls, data sensitivity). Scanner severity is the starting point,
+not the verdict.
+
+## Remediation SLAs
+
+Clock starts at triage confirmation, not at scan time.
+
+| Severity | Triage within | Fix or approved exception within | Gate behavior |
+|---|---|---|---|
+| Critical | 4 business hours | 24 hours | Blocks merge |
+| High | 1 business day | 7 calendar days | Blocks merge |
+| Medium | 3 business days | 30 calendar days | Warns; ticket required |
+| Low / note | 5 business days | 90 calendar days or backlog | Reported only |
+
+SLA breaches escalate to the engineering manager and the AppSec lead
+jointly. An SLA is a commitment to respond, not a promise that every
+fix is trivial; where a fix genuinely cannot land in window, the
+exception process below is the honest path, not silent expiry.
+
+## The gating policy (what CI actually enforces)
+
+- Threshold: **high**. Any *new* finding at high or critical blocks
+  the merge. "New" means its key
+  (`tool|rule_id|location`, see `tools/gate.py`) is not in
+  `policy/baseline.json`.
+- The baseline is the adoption mechanism: a team turning this pipeline
+  on for a legacy codebase triages existing findings once, records the
+  accepted ones in the baseline with ticket references and expiry
+  dates, and from that day forward the ratchet only tightens.
+- The gate **fails closed** (exit code 2) if scanner output is missing
+  or unparseable. A broken scanner must never look like a clean scan.
+- On this lab repository the gate fails by design: the sample app's
+  findings are real, unpatched, and unbaselined. Running the gate
+  locally shows the exact findings a real team would triage first.
+
+## Finding lifecycle
+
+```
+scan -> SARIF/JSON artifact -> gate (new high/critical blocks)
+     -> GitHub Security tab (Semgrep + CodeQL SARIF)
+     -> triage (confirm, severity, owner, due date per SLA)
+     -> fix PR (re-scan must show the finding gone)
+     -> close, or exception (baseline entry + ticket + expiry)
+```
+
+Every confirmed finding gets a ticket with: scanner, rule ID, location,
+the data-flow or request that proves it, the fix or the exception, and
+the SLA due date. Findings are never closed from the scanner UI alone.

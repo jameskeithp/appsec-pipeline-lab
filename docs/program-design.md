@@ -1,1 +1,61 @@
-IyBQcm9ncmFtIGRlc2lnbjogZnJvbSB0aGlzIGxhYiB0byBhIHJlYWwgQXBwU2VjIHByb2dyYW0KClRoaXMgbGFiIGlzIG9uZSByZXBvc2l0b3J5J3MgcGlwZWxpbmUuIEEgcHJvZ3JhbSBpcyB3aGF0IGhhcHBlbnMgd2hlbgp0aGUgc2FtZSBpZGVhcyBydW4gYWNyb3NzIGV2ZXJ5IHJlcG9zaXRvcnkgYSBjb21wYW55IG93bnMuIFRoaXMgbm90ZQpkZXNjcmliZXMgaG93IHRoZSBwaWVjZXMgaGVyZSBzY2FsZSwgYmVjYXVzZSAiSSBjYW4gY29uZmlndXJlIFNlbWdyZXAiCmFuZCAiSSBjYW4gcnVuIGFuIEFwcFNlYyBwcm9ncmFtIiBhcmUgZGlmZmVyZW50IGNsYWltcyBhbmQgaW50ZXJ2aWV3ZXJzCmtub3cgaXQuCgojIyBUaGUgcGlwZWxpbmUgYXMgdGhlIHByb2dyYW0ncyBzZW5zb3IKCi0gKipQUi10aW1lIGZlZWRiYWNrIChzaGlmdCBsZWZ0LCBidXQga2VlcCBpdCBmYXN0KS4qKiBTZW1ncmVwIGFuZAogIGRlcGVuZGVuY3kgcmV2aWV3IHJ1biBvbiBldmVyeSBwdWxsIHJlcXVlc3QgYW5kIGFuc3dlciBpbiBtaW51dGVzLgogIENvZGVRTCdzIGRlZXBlciBhbmFseXNpcyBydW5zIG9uIG1lcmdlIGFuZCBvbiBhIHNjaGVkdWxlLCB3aGVyZSBpdHMKICBsYXRlbmN5IGRvZXMgbm90IHN0YWxsIGRldmVsb3BlcnMuIFpBUCBiYXNlbGluZSBydW5zIGFnYWluc3Qgc3RhZ2luZwogIG9uIGRlcGxveS4gRnVsbCBhdXRoZW50aWNhdGVkIERBU1QgYW5kIG1hbnVhbCB0ZXN0aW5nIHNpdCBhYm92ZSB0aGUKICBiYXNlbGluZSBmb3IgaGlnaC1yaXNrIHNlcnZpY2VzOyBhdXRvbWF0aW9uIGRvZXMgbm90IHJlcGxhY2UgdGhlbS4KLSAqKk9uZSBwb2xpY3ksIGNlbnRyYWxseSBvd25lZC4qKiBTZXZlcml0eSBtYXBwaW5nLCB0aGUgZ2F0ZQogIHRocmVzaG9sZCwgYW5kIFNMQXMgbGl2ZSBpbiBvbmUgcGxhY2UgKGB0b29scy9nYXRlLnB5YCwKICBgZG9jcy90cmlhZ2UtYW5kLXNsYXMubWRgKSBhbmQgYXJlIGNvbnN1bWVkIGJ5IGV2ZXJ5IHJlcG8sIHNvICJ3aGF0CiAgY291bnRzIGFzIGJsb2NraW5nIiBpcyBhIHByb2dyYW0gZGVjaXNpb24sIG5vdCBwZXItdGVhbSBmb2xrbG9yZS4KICBUaGUgcmV1c2FibGUtd29ya2Zsb3cgdmVyc2lvbiBvZiBgYXBwc2VjLnltbGAgaXMgaG93IHRoaXMgc2hpcHMgdG8KICBkb3plbnMgb2YgcmVwb3Mgd2l0aG91dCBkb3plbnMgb2YgZm9ya3Mgb2YgdGhlIFlBTUwuCi0gKipTQVJJRiBpcyB0aGUgaW50ZWdyYXRpb24gY29udHJhY3QuKiogRXZlcnkgc2Nhbm5lciBlbWl0cyBTQVJJRiAob3IKICBpcyBhZGFwdGVkIHRvIGl0KSwgbGFuZHMgaW4gdGhlIEdpdEh1YiBTZWN1cml0eSB0YWIsIGFuZCBmcm9tIHRoZXJlCiAgY2FuIGZsb3cgdG8gd2hhdGV2ZXIgc3lzdGVtIG9mIHJlY29yZCB0aGUgY29tcGFueSB1c2VzIChKaXJhLAogIFNlcnZpY2VOb3csIGFuIEFTUE0gcGxhdGZvcm0pIHdpdGhvdXQgcmUtaW50ZWdyYXRpbmcgZWFjaCB0b29sLgoKIyMgRGV2ZWxvcGVyIGV4cGVyaWVuY2UgaXMgYSBzZWN1cml0eSBjb250cm9sCgotIEZpbmRpbmdzIGFycml2ZSB3aGVyZSBkZXZlbG9wZXJzIGFscmVhZHkgd29yazogUFIgY2hlY2tzLCB0aGUKICBTZWN1cml0eSB0YWIsIGEgdGlja2V0IHdpdGggdGhlIGV4YWN0IGxvY2F0aW9uIGFuZCBhIGZpeCBwYXR0ZXJuLgogIEEgZmluZGluZyB0aGF0IHJlcXVpcmVzIGEgd2lraSBleHBlZGl0aW9uIHRvIHVuZGVyc3RhbmQgd2lsbCBiZQogIGlnbm9yZWQsIGFuZCB0aGF0IGlzIHRoZSBwcm9ncmFtJ3MgYnVnLCBub3QgdGhlIGRldmVsb3BlcidzLgotIFRoZSBmZWVkYmFjayBsb29wIGlzIG1lYXN1cmVkOiB0aW1lIGZyb20gZmluZGluZyB0byBkZXZlbG9wZXIKICBhY2tub3dsZWRnbWVudCwgZmFsc2UtcG9zaXRpdmUgcmF0ZSBwZXIgcnVsZSwgYW5kIHJlcGVhdC1maW5kaW5nCiAgcmF0ZSBwZXIgdGVhbS4gUnVsZXMgd2l0aCBoaWdoIEZQIHJhdGVzIGdldCB0dW5lZCwgc2NvcGVkLCBvcgogIHJldGlyZWQ7IHNjYW5uZXIgbm9pc2UgaXMgdHJlYXRlZCBhcyBhIGRlZmVjdCBpbiB0aGUgcHJvZ3JhbS4KLSBDaGFtcGlvbnMgbmV0d29ya3MgYW5kIG9mZmljZSBob3VycyBoYW5kbGUgdGhlICJob3cgZG8gSSBmaXggdGhpcwogIGNsYXNzIiBxdWVzdGlvbnMgYXQgc2NhbGU7IHRoZSBwaXBlbGluZSBoYW5kbGVzIHRoZSBkZXRlY3Rpb24uCgojIyBNZXRyaWNzIHRoYXQgbWF0dGVyIChhbmQgdHdvIHRoYXQgZG8gbm90KQoKUmVwb3J0OiBtZWFuIHRpbWUgdG8gcmVtZWRpYXRlIGJ5IHNldmVyaXR5IGFnYWluc3QgU0xBLCBwZXJjZW50YWdlIG9mCnJlcG9zIHdpdGggZ2F0aW5nIGVuYWJsZWQsIGZpbmRpbmdzIGFnaW5nIHBhc3QgU0xBLCBGUCByYXRlIHBlciBydWxlLAphbmQgdnVsbmVyYWJpbGl0eSBkZW5zaXR5IHRyZW5kIHBlciBzZXJ2aWNlLiBEbyAqKm5vdCoqIHJlcG9ydCByYXcKZmluZGluZyBjb3VudHMgYXMgYSBLUEkgKHRoZXkgcmV3YXJkIHR1cm5pbmcgc2Nhbm5lcnMgb2ZmKSBvciByYW5rCnRlYW1zIGJ5IGZpbmRpbmdzICh0aGV5IHB1bmlzaCB0aGUgdGVhbXMgd2hvc2UgY29kZSBpcyBzY2FubmVkIG1vc3QpLgoKIyMgUmlzay1iYXNlZCByb2xsb3V0CgoxLiBWaXNpYmlsaXR5IGZpcnN0OiBzY2FubmVycyBpbiByZXBvcnQtb25seSBtb2RlLCBmaW5kaW5ncyBmbG93aW5nLAogICBub2JvZHkgYmxvY2tlZC4gQmFzZWxpbmUgdGhlIGV4aXN0aW5nIHN0YXRlIGhvbmVzdGx5LgoyLiBHYXRlIHRoZSB3b3JzdDogdHVybiBvbiBibG9ja2luZyBmb3IgY3JpdGljYWwsIHRoZW4gaGlnaCwgcGVyIHJlcG8sCiAgIHdpdGggdGhlIGJhc2VsaW5lIHJhdGNoZXQgZG9jdW1lbnRlZCBpbgogICBgZG9jcy9mYWxzZS1wb3NpdGl2ZS1zdXBwcmVzc2lvbi5tZGAuCjMuIEV4cGFuZCBjb3ZlcmFnZSBieSByaXNrIHRpZXI6IGludGVybmV0LWZhY2luZyBhbmQgcmVndWxhdGVkLWRhdGEKICAgc2VydmljZXMgZmlyc3QsIGludGVybmFsIHRvb2xpbmcgbGF0ZXIsIHdpdGggREFTVCBkZXB0aCBhbmQgbWFudWFsCiAgIHJldmlldyBhbGxvY2F0ZWQgYnkgZGF0YSBzZW5zaXRpdml0eSwgbm90IGJ5IHdobyBzaG91dHMgbG91ZGVzdC4KNC4gRmVlZCBpbmNpZGVudHMgYmFjazogZXZlcnkgcHJvZHVjdGlvbiBzZWN1cml0eSBidWcgYmVjb21lcyBhCiAgIGNhbmRpZGF0ZSBzY2FubmVyIHJ1bGUgb3IgdGVzdCBjYXNlLCBzbyB0aGUgcGlwZWxpbmUgbGVhcm5zIGZyb20KICAgdGhlIGZhaWx1cmVzIGl0IG1pc3NlZC4K
+# Program design: from this lab to a real AppSec program
+
+This lab is one repository's pipeline. A program is what happens when
+the same ideas run across every repository a company owns. This note
+describes how the pieces here scale, because "I can configure Semgrep"
+and "I can run an AppSec program" are different claims and interviewers
+know it.
+
+## The pipeline as the program's sensor
+
+- **PR-time feedback (shift left, but keep it fast).** Semgrep and
+  dependency review run on every pull request and answer in minutes.
+  CodeQL's deeper analysis runs on merge and on a schedule, where its
+  latency does not stall developers. ZAP baseline runs against staging
+  on deploy. Full authenticated DAST and manual testing sit above the
+  baseline for high-risk services; automation does not replace them.
+- **One policy, centrally owned.** Severity mapping, the gate
+  threshold, and SLAs live in one place (`tools/gate.py`,
+  `docs/triage-and-slas.md`) and are consumed by every repo, so "what
+  counts as blocking" is a program decision, not per-team folklore.
+  The reusable-workflow version of `appsec.yml` is how this ships to
+  dozens of repos without dozens of forks of the YAML.
+- **SARIF is the integration contract.** Every scanner emits SARIF (or
+  is adapted to it), lands in the GitHub Security tab, and from there
+  can flow to whatever system of record the company uses (Jira,
+  ServiceNow, an ASPM platform) without re-integrating each tool.
+
+## Developer experience is a security control
+
+- Findings arrive where developers already work: PR checks, the
+  Security tab, a ticket with the exact location and a fix pattern.
+  A finding that requires a wiki expedition to understand will be
+  ignored, and that is the program's bug, not the developer's.
+- The feedback loop is measured: time from finding to developer
+  acknowledgment, false-positive rate per rule, and repeat-finding
+  rate per team. Rules with high FP rates get tuned, scoped, or
+  retired; scanner noise is treated as a defect in the program.
+- Champions networks and office hours handle the "how do I fix this
+  class" questions at scale; the pipeline handles the detection.
+
+## Metrics that matter (and two that do not)
+
+Report: mean time to remediate by severity against SLA, percentage of
+repos with gating enabled, findings aging past SLA, FP rate per rule,
+and vulnerability density trend per service. Do **not** report raw
+finding counts as a KPI (they reward turning scanners off) or rank
+teams by findings (they punish the teams whose code is scanned most).
+
+## Risk-based rollout
+
+1. Visibility first: scanners in report-only mode, findings flowing,
+   nobody blocked. Baseline the existing state honestly.
+2. Gate the worst: turn on blocking for critical, then high, per repo,
+   with the baseline ratchet documented in
+   `docs/false-positive-suppression.md`.
+3. Expand coverage by risk tier: internet-facing and regulated-data
+   services first, internal tooling later, with DAST depth and manual
+   review allocated by data sensitivity, not by who shouts loudest.
+4. Feed incidents back: every production security bug becomes a
+   candidate scanner rule or test case, so the pipeline learns from
+   the failures it missed.

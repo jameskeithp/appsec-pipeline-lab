@@ -1,1 +1,119 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiIKSU5URU5USU9OQUxMWSBWVUxORVJBQkxFIFRSQUlOSU5HIEFQUExJQ0FUSU9OIC0tIERPIE5PVCBERVBMT1kuCgpUaGlzIEZsYXNrIGFwcCBleGlzdHMgZm9yIG9uZSBwdXJwb3NlOiB0byBnaXZlIHRoZSBTQVNULCBTQ0EsIGFuZCBEQVNUCnNjYW5uZXJzIGluIHRoaXMgcmVwb3NpdG9yeSBzb21ldGhpbmcgcmVhbCB0byBmaW5kLiBFdmVyeSB2dWxuZXJhYmlsaXR5CmJlbG93IGlzIGRlbGliZXJhdGUsIGNsZWFybHkgY29tbWVudGVkLCBhbmQgY2F0YWxvZ3VlZCBpbgpkb2NzL3NhbXBsZS1maW5kaW5ncy5tZC4gSXQgYmluZHMgdG8gbG9jYWxob3N0IGluIHRoZSBkZW1vIHNjcmlwdHMgYW5kCm11c3QgbmV2ZXIgYmUgZXhwb3NlZCB0byBhIG5ldHdvcmsgeW91IGNhcmUgYWJvdXQsIGdpdmVuIHJlYWwgZGF0YSwgb3IKY29waWVkIGludG8gcHJvZHVjdGlvbiBjb2RlLgoKVnVsbmVyYWJpbGl0eSBjYXRhbG9ndWUgKGVhY2ggb25lIG1hcHMgdG8gYSBzY2FubmVyIHJ1bGUgaW4gdGhlIGxhYik6CiAgMS4gU1FMIGluamVjdGlvbiAgICAgICAgICAgIC0tIC91c2VyIGJ1aWxkcyBTUUwgd2l0aCBzdHJpbmcgZm9ybWF0dGluZwogIDIuIFJlZmxlY3RlZCBYU1MgICAgICAgICAgICAtLSAvc2VhcmNoIGVjaG9lcyBpbnB1dCB3aXRob3V0IGVzY2FwaW5nCiAgMy4gSGFyZGNvZGVkIHNlY3JldCAgICAgICAgIC0tIFNFQ1JFVF9LRVkgYW5kIGFuIEFQSSB0b2tlbiBpbiBzb3VyY2UKICA0LiBXZWFrIGNyeXB0b2dyYXBoeSAgICAgICAgLS0gTUQ1IHVzZWQgZm9yIHBhc3N3b3JkIHN0b3JhZ2UgaW4gL3JlZ2lzdGVyCiAgNS4gSW5zZWN1cmUgZGVzZXJpYWxpemF0aW9uIC0tIHBpY2tsZS5sb2FkcyBvbiByZXF1ZXN0IGRhdGEgaW4gL3Jlc3RvcmUKICA2LiBGbGFzayBkZWJ1ZyBtb2RlICAgICAgICAgLS0gYXBwLnJ1bihkZWJ1Zz1UcnVlKSB1bmRlciBfX21haW5fXwoiIiIKCmltcG9ydCBoYXNobGliCmltcG9ydCBwaWNrbGUKaW1wb3J0IHNxbGl0ZTMKCmZyb20gZmxhc2sgaW1wb3J0IEZsYXNrLCByZXF1ZXN0CgphcHAgPSBGbGFzayhfX25hbWVfXykKCiMgVlVMTkVSQUJJTElUWSAzIChoYXJkY29kZWQgc2VjcmV0KTogcmVhbCBhcHBsaWNhdGlvbnMgbG9hZCBzZWNyZXRzIGZyb20KIyB0aGUgZW52aXJvbm1lbnQgb3IgYSBzZWNyZXQgbWFuYWdlci4gQSBjb21taXR0ZWQgc2VjcmV0IGlzIGNvbXByb21pc2VkCiMgdGhlIG1vbWVudCBpdCBsYW5kcyBpbiBnaXQgaGlzdG9yeSwgZXZlbiBpZiBpdCBpcyAicmVtb3ZlZCIgbGF0ZXIuCmFwcC5jb25maWdbIlNFQ1JFVF9LRVkiXSA9ICJoYXJkY29kZWQtZGV2LXNlY3JldC1kby1ub3QtdXNlIgpUSElSRF9QQVJUWV9BUElfVE9LRU4gPSAic2stbGl2ZS1FWEFNUExFLWhhcmRjb2RlZC10b2tlbi1ub3QtcmVhbCIKCgpkZWYgZ2V0X2RiKCk6CiAgICBjb25uID0gc3FsaXRlMy5jb25uZWN0KCI6bWVtb3J5OiIpCiAgICBjb25uLmV4ZWN1dGUoCiAgICAgICAgIkNSRUFURSBUQUJMRSB1c2VycyAoaWQgSU5URUdFUiBQUklNQVJZIEtFWSwgbmFtZSBURVhULCBwYXNzd29yZF9oYXNoIFRFWFQpIgogICAgKQogICAgY29ubi5leGVjdXRlKAogICAgICAgICJJTlNFUlQgSU5UTyB1c2VycyAobmFtZSwgcGFzc3dvcmRfaGFzaCkgVkFMVUVTICgnYWxpY2UnLCAncGxhY2Vob2xkZXInKSIKICAgICkKICAgIHJldHVybiBjb25uCgoKQGFwcC5yb3V0ZSgiLyIpCmRlZiBpbmRleCgpOgogICAgcmV0dXJuICgKICAgICAgICAiPGgxPmFwcHNlYy1waXBlbGluZS1sYWIgdGFyZ2V0IGFwcDwvaDE+IgogICAgICAgICI8cD5JbnRlbnRpb25hbGx5IHZ1bG5lcmFibGUgdHJhaW5pbmcgdGFyZ2V0LiBTZWUgUkVBRE1FLm1kLjwvcD4iCiAgICApCgoKQGFwcC5yb3V0ZSgiL3VzZXIiKQpkZWYgdXNlcl9sb29rdXAoKToKICAgICIiIlZVTE5FUkFCSUxJVFkgMSAoU1FMIGluamVjdGlvbikuCgogICAgVGhlIGBuYW1lYCBwYXJhbWV0ZXIgaXMgaW50ZXJwb2xhdGVkIHN0cmFpZ2h0IGludG8gdGhlIFNRTCBzdHJpbmcuCiAgICBBIHJlcXVlc3QgbGlrZSAvdXNlcj9uYW1lPScgT1IgJzEnPScxIHJldHVybnMgZXZlcnkgcm93LiBUaGUgZml4IGlzCiAgICBhIHBhcmFtZXRlcml6ZWQgcXVlcnk6IGN1cnNvci5leGVjdXRlKCIuLi4gV0hFUkUgbmFtZSA9ID8iLCAobmFtZSwpKS4KICAgIFNlbWdyZXAgcnVsZSBweXRob24uZmxhc2sgLyBweXRob24ubGFuZy5zZWN1cml0eS5hdWRpdCBzaG91bGQgZmxhZwogICAgdGhlIHN0cmluZy1mb3JtYXR0ZWQgZXhlY3V0ZSgpIGNhbGwgYmVsb3cuCiAgICAiIiIKICAgIG5hbWUgPSByZXF1ZXN0LmFyZ3MuZ2V0KCJuYW1lIiwgIiIpCiAgICBjb25uID0gZ2V0X2RiKCkKICAgIHF1ZXJ5ID0gIlNFTEVDVCBpZCwgbmFtZSBGUk9NIHVzZXJzIFdIRVJFIG5hbWUgPSAnJXMnIiAlIG5hbWUKICAgIHJvd3MgPSBjb25uLmV4ZWN1dGUocXVlcnkpLmZldGNoYWxsKCkKICAgIHJldHVybiB7InVzZXJzIjogW3siaWQiOiByWzBdLCAibmFtZSI6IHJbMV19IGZvciByIGluIHJvd3NdfQoKCkBhcHAucm91dGUoIi9zZWFyY2giKQpkZWYgc2VhcmNoKCk6CiAgICAiIiJWVUxORVJBQklMSVRZIDIgKHJlZmxlY3RlZCBYU1MpLgoKICAgIFRoZSBgcWAgcGFyYW1ldGVyIGlzIHJlZmxlY3RlZCBpbnRvIEhUTUwgd2l0aCBubyBlc2NhcGluZyBhbmQgbm8KICAgIENvbnRlbnQtU2VjdXJpdHktUG9saWN5LiAvc2VhcmNoP3E9PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0PiBleGVjdXRlcwogICAgaW4gYSB2aWN0aW0ncyBicm93c2VyLiBUaGUgZml4IGlzIG91dHB1dCBlbmNvZGluZyAoSmluamEyIGF1dG9lc2NhcGUKICAgIG9yIG1hcmt1cHNhZmUuZXNjYXBlKS4gWkFQJ3MgYmFzZWxpbmUgc2NhbiBmbGFncyB0aGUgbWlzc2luZyBDU1AgYW5kCiAgICB0aGUgcmVmbGVjdGlvbi4KICAgICIiIgogICAgcSA9IHJlcXVlc3QuYXJncy5nZXQoInEiLCAiIikKICAgIHJldHVybiBmIjxodG1sPjxib2R5PjxoMj5SZXN1bHRzIGZvcjoge3F9PC9oMj48L2JvZHk+PC9odG1sPiIKCgpAYXBwLnJvdXRlKCIvcmVnaXN0ZXIiLCBtZXRob2RzPVsiUE9TVCJdKQpkZWYgcmVnaXN0ZXIoKToKICAgICIiIlZVTE5FUkFCSUxJVFkgNCAod2VhayBjcnlwdG9ncmFwaHkpLgoKICAgIFBhc3N3b3JkcyBhcmUgaGFzaGVkIHdpdGggdW5zYWx0ZWQgTUQ1LCB3aGljaCBtb2Rlcm4gR1BVcyBjcmFjayBhdAogICAgYmlsbGlvbnMgb2YgZ3Vlc3NlcyBwZXIgc2Vjb25kLiBUaGUgZml4IGlzIGEgcGFzc3dvcmQgS0RGOiBiY3J5cHQsCiAgICBzY3J5cHQsIG9yIGFyZ29uMiB3aXRoIHBlci11c2VyIHNhbHQuIFNlbWdyZXAgZmxhZ3MgaGFzaGxpYi5tZDUgb24KICAgIHNlY3VyaXR5LXNlbnNpdGl2ZSBkYXRhLgogICAgIiIiCiAgICB1c2VybmFtZSA9IHJlcXVlc3QuZm9ybS5nZXQoInVzZXJuYW1lIiwgIiIpCiAgICBwYXNzd29yZCA9IHJlcXVlc3QuZm9ybS5nZXQoInBhc3N3b3JkIiwgIiIpCiAgICBkaWdlc3QgPSBoYXNobGliLm1kNShwYXNzd29yZC5lbmNvZGUoKSkuaGV4ZGlnZXN0KCkgICMgbm9zZWM6IGRlbGliZXJhdGUKICAgIHJldHVybiB7InJlZ2lzdGVyZWQiOiB1c2VybmFtZSwgInN0b3JlZF9oYXNoX3ByZXZpZXciOiBkaWdlc3RbOjhdfQoKCkBhcHAucm91dGUoIi9yZXN0b3JlIiwgbWV0aG9kcz1bIlBPU1QiXSkKZGVmIHJlc3RvcmUoKToKICAgICIiIlZVTE5FUkFCSUxJVFkgNSAoaW5zZWN1cmUgZGVzZXJpYWxpemF0aW9uKS4KCiAgICBwaWNrbGUubG9hZHMgb24gYXR0YWNrZXItY29udHJvbGxlZCBieXRlcyBpcyByZW1vdGUgY29kZSBleGVjdXRpb24KICAgIGJ5IGRlc2lnbjogYSBjcmFmdGVkIHBpY2tsZSBydW5zIGFyYml0cmFyeSBjb2RlIGR1cmluZyB1bnBpY2tsaW5nLgogICAgVGhlIGZpeCBpcyBhIGRhdGEtb25seSBmb3JtYXQgKEpTT04pIHBsdXMgc2NoZW1hIHZhbGlkYXRpb24uIFNlbWdyZXAKICAgIGFuZCBDb2RlUUwgYm90aCBmbGFnIHBpY2tsZS5sb2FkcyBvbiByZXF1ZXN0IGRhdGEuCiAgICAiIiIKICAgIGJsb2IgPSByZXF1ZXN0LmdldF9kYXRhKCkKICAgIG9iaiA9IHBpY2tsZS5sb2FkcyhibG9iKSAgIyBub3NlYzogZGVsaWJlcmF0ZSwgdHJhaW5pbmcgdGFyZ2V0IG9ubHkKICAgIHJldHVybiB7InJlc3RvcmVkX3R5cGUiOiB0eXBlKG9iaikuX19uYW1lX199CgoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgICMgVlVMTkVSQUJJTElUWSA2IChkZWJ1ZyBtb2RlKTogdGhlIFdlcmt6ZXVnIGRlYnVnZ2VyIGFsbG93cyBjb2RlCiAgICAjIGV4ZWN1dGlvbiBmcm9tIHRoZSBicm93c2VyIGlmIHJlYWNoZWQuIE5ldmVyIHJ1biBkZWJ1Zz1UcnVlIG91dHNpZGUKICAgICMgYSB0aHJvd2F3YXkgbG9jYWwgbGFiLiBLZXB0IGhlcmUgc28gc2Nhbm5lcnMgaGF2ZSBhIHRydWUgcG9zaXRpdmUuCiAgICBhcHAucnVuKGhvc3Q9IjEyNy4wLjAuMSIsIHBvcnQ9NTAwMCwgZGVidWc9VHJ1ZSkK
+#!/usr/bin/env python3
+"""
+INTENTIONALLY VULNERABLE TRAINING APPLICATION -- DO NOT DEPLOY.
+
+This Flask app exists for one purpose: to give the SAST, SCA, and DAST
+scanners in this repository something real to find. Every vulnerability
+below is deliberate, clearly commented, and catalogued in
+docs/sample-findings.md. It binds to localhost in the demo scripts and
+must never be exposed to a network you care about, given real data, or
+copied into production code.
+
+Vulnerability catalogue (each one maps to a scanner rule in the lab):
+  1. SQL injection            -- /user builds SQL with string formatting
+  2. Reflected XSS            -- /search echoes input without escaping
+  3. Hardcoded secret         -- SECRET_KEY and an API token in source
+  4. Weak cryptography        -- MD5 used for password storage in /register
+  5. Insecure deserialization -- pickle.loads on request data in /restore
+  6. Flask debug mode         -- app.run(debug=True) under __main__
+"""
+
+import hashlib
+import pickle
+import sqlite3
+
+from flask import Flask, request
+
+app = Flask(__name__)
+
+# VULNERABILITY 3 (hardcoded secret): real applications load secrets from
+# the environment or a secret manager. A committed secret is compromised
+# the moment it lands in git history, even if it is "removed" later.
+app.config["SECRET_KEY"] = "hardcoded-dev-secret-do-not-use"
+THIRD_PARTY_API_TOKEN = "sk-live-EXAMPLE-hardcoded-token-not-real"
+
+
+def get_db():
+    conn = sqlite3.connect(":memory:")
+    conn.execute(
+        "CREATE TABLE users (id INTEGER PRIMARY KEY, name TEXT, password_hash TEXT)"
+    )
+    conn.execute(
+        "INSERT INTO users (name, password_hash) VALUES ('alice', 'placeholder')"
+    )
+    return conn
+
+
+@app.route("/")
+def index():
+    return (
+        "<h1>appsec-pipeline-lab target app</h1>"
+        "<p>Intentionally vulnerable training target. See README.md.</p>"
+    )
+
+
+@app.route("/user")
+def user_lookup():
+    """VULNERABILITY 1 (SQL injection).
+
+    The `name` parameter is interpolated straight into the SQL string.
+    A request like /user?name=' OR '1'='1 returns every row. The fix is
+    a parameterized query: cursor.execute("... WHERE name = ?", (name,)).
+    Semgrep rule python.flask / python.lang.security.audit should flag
+    the string-formatted execute() call below.
+    """
+    name = request.args.get("name", "")
+    conn = get_db()
+    query = "SELECT id, name FROM users WHERE name = '%s'" % name
+    rows = conn.execute(query).fetchall()
+    return {"users": [{"id": r[0], "name": r[1]} for r in rows]}
+
+
+@app.route("/search")
+def search():
+    """VULNERABILITY 2 (reflected XSS).
+
+    The `q` parameter is reflected into HTML with no escaping and no
+    Content-Security-Policy. /search?q=<script>alert(1)</script> executes
+    in a victim's browser. The fix is output encoding (Jinja2 autoescape
+    or markupsafe.escape). ZAP's baseline scan flags the missing CSP and
+    the reflection.
+    """
+    q = request.args.get("q", "")
+    return f"<html><body><h2>Results for: {q}</h2></body></html>"
+
+
+@app.route("/register", methods=["POST"])
+def register():
+    """VULNERABILITY 4 (weak cryptography).
+
+    Passwords are hashed with unsalted MD5, which modern GPUs crack at
+    billions of guesses per second. The fix is a password KDF: bcrypt,
+    scrypt, or argon2 with per-user salt. Semgrep flags hashlib.md5 on
+    security-sensitive data.
+    """
+    username = request.form.get("username", "")
+    password = request.form.get("password", "")
+    digest = hashlib.md5(password.encode()).hexdigest()  # nosec: deliberate
+    return {"registered": username, "stored_hash_preview": digest[:8]}
+
+
+@app.route("/restore", methods=["POST"])
+def restore():
+    """VULNERABILITY 5 (insecure deserialization).
+
+    pickle.loads on attacker-controlled bytes is remote code execution
+    by design: a crafted pickle runs arbitrary code during unpickling.
+    The fix is a data-only format (JSON) plus schema validation. Semgrep
+    and CodeQL both flag pickle.loads on request data.
+    """
+    blob = request.get_data()
+    obj = pickle.loads(blob)  # nosec: deliberate, training target only
+    return {"restored_type": type(obj).__name__}
+
+
+if __name__ == "__main__":
+    # VULNERABILITY 6 (debug mode): the Werkzeug debugger allows code
+    # execution from the browser if reached. Never run debug=True outside
+    # a throwaway local lab. Kept here so scanners have a true positive.
+    app.run(host="127.0.0.1", port=5000, debug=True)

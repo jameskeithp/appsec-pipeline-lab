@@ -1,1 +1,21 @@
-IyBEZXBlbmRhYm90OiBrZWVwIGRlcGVuZGVuY2llcyBhbmQgQWN0aW9ucyBjdXJyZW50IHNvIHRoZSBTQ0Egc3RhZ2UKIyBpcyBmaWdodGluZyBuZXcgQ1ZFcywgbm90IGFyY2hhZW9sb2d5LiBUaGUgaW50ZW50aW9uYWxseSB2dWxuZXJhYmxlCiMgcGlucyBpbiBhcHAvcmVxdWlyZW1lbnRzLnR4dCBhcmUgdGhlIGxhYidzIHRlYWNoaW5nIHRhcmdldCAtLSBpbiBhCiMgcmVhbCBkZXBsb3ltZW50IHRoZXNlIHVwZGF0ZSBQUnMgYXJlIHRoZSByZW1lZGlhdGlvbiBwaXBlbGluZS4KdmVyc2lvbjogMgp1cGRhdGVzOgogIC0gcGFja2FnZS1lY29zeXN0ZW06ICJwaXAiCiAgICBkaXJlY3Rvcnk6ICIvYXBwIgogICAgc2NoZWR1bGU6CiAgICAgIGludGVydmFsOiAid2Vla2x5IgogICAgb3Blbi1wdWxsLXJlcXVlc3RzLWxpbWl0OiA1CiAgICBsYWJlbHM6CiAgICAgIC0gImRlcGVuZGVuY2llcyIKICAgICAgLSAic2VjdXJpdHkiCiAgLSBwYWNrYWdlLWVjb3N5c3RlbTogImdpdGh1Yi1hY3Rpb25zIgogICAgZGlyZWN0b3J5OiAiLyIKICAgIHNjaGVkdWxlOgogICAgICBpbnRlcnZhbDogIndlZWtseSIKICAgIGxhYmVsczoKICAgICAgLSAiZGVwZW5kZW5jaWVzIgogICAgICAtICJjaSIK
+# Dependabot: keep dependencies and Actions current so the SCA stage
+# is fighting new CVEs, not archaeology. The intentionally vulnerable
+# pins in app/requirements.txt are the lab's teaching target -- in a
+# real deployment these update PRs are the remediation pipeline.
+version: 2
+updates:
+  - package-ecosystem: "pip"
+    directory: "/app"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+    labels:
+      - "dependencies"
+      - "security"
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    labels:
+      - "dependencies"
+      - "ci"
