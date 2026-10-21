@@ -94,7 +94,7 @@ jobs:
           # Fail the PR if it introduces a dependency with a known
           # high-or-above severity vulnerability.
           fail-on-severity: high
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
       - name: Install pip-audit
@@ -120,7 +120,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
       - name: Start the target app
