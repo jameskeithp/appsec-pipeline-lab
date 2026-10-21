@@ -1,1 +1,24 @@
-IyBEZXBlbmRlbmNpZXMgZm9yIHRoZSBpbnRlbnRpb25hbGx5IHZ1bG5lcmFibGUgdHJhaW5pbmcgYXBwLgojCiMgU2V2ZXJhbCBwaW5zIGFyZSBERUxJQkVSQVRFTFkgb3V0IG9mIGRhdGUgc28gdGhlIFNDQSBzdGFnZSAocGlwLWF1ZGl0KQojIGhhcyByZWFsLCBkb2N1bWVudGVkIENWRXMgdG8gZmluZC4gVGhpcyBpcyB0aGUgb25lIHJlcXVpcmVtZW50cyBmaWxlIGluCiMgdGhlIHdvcmxkIHdoZXJlIHRoYXQgaXMgdGhlIHBvaW50LiBEbyBub3QgY29weSB0aGVzZSBwaW5zIGFueXdoZXJlIGVsc2UuCiMKIyBLbm93bi12dWxuZXJhYmxlIHBpbnMgYW5kIHdoeSB0aGV5IHdlcmUgY2hvc2VuOgojICAgV2Vya3pldWcgMi4yLjMgICAgICBDVkUtMjAyMy0yNTU3NyAobXVsdGlwYXJ0IERvUyksIENWRS0yMDIzLTIzOTM0CiMgICAgICAgICAgICAgICAgICAgICAgIChjb29raWUgcGFyc2luZyksIENWRS0yMDIzLTQ2MTM2IC0tIHRoZSBGbGFzayBkZWJ1ZwojICAgICAgICAgICAgICAgICAgICAgICBzZXJ2ZXIgc3RhY2sgdGhpcyBhcHAgYWN0dWFsbHkgcnVucyBvbi4KIyAgIHVybGxpYjMgMS4yNi4xNCAgICAgQ1ZFLTIwMjMtNDM4MDQgYW5kIENWRS0yMDIzLTQ1ODAzIChyZWRpcmVjdCAvCiMgICAgICAgICAgICAgICAgICAgICAgIGNvb2tpZSBoYW5kbGluZykgLS0gcHVsbGVkIGluIHRyYW5zaXRpdmVseSBpbgojICAgICAgICAgICAgICAgICAgICAgICBtb3N0IHN0YWNrczsgcGlubmVkIGhlcmUgc28gaXQgaXMgZXhwbGljaXQuCiMgICBjcnlwdG9ncmFwaHkgMzkuMC4wIENWRS0yMDIzLTIzOTMxIGFuZCBDVkUtMjAyMy00OTA4MyAtLSBzaG93cyBTQ0EKIyAgICAgICAgICAgICAgICAgICAgICAgY2F0Y2hpbmcgYSBzZWN1cml0eSBsaWJyYXJ5IHRoYXQgaXMgaXRzZWxmIHN0YWxlLgojICAgcmVxdWVzdHMgMi4yOC4xICAgICBPbGRlciBsaW5lIGtlcHQgdG8gZGVtb25zdHJhdGUgdmVyc2lvbiBkcmlmdAojICAgICAgICAgICAgICAgICAgICAgICByZXBvcnRpbmc7IHBpcC1hdWRpdCBpcyB0aGUgc291cmNlIG9mIHRydXRoIGZvcgojICAgICAgICAgICAgICAgICAgICAgICB3aGV0aGVyIGl0IGN1cnJlbnRseSBjYXJyaWVzIGFuIGFkdmlzb3J5LgpGbGFzaz09Mi4yLjMKV2Vya3pldWc9PTIuMi4zCkppbmphMj09My4xLjIKcmVxdWVzdHM9PTIuMjguMQp1cmxsaWIzPT0xLjI2LjE0CmNyeXB0b2dyYXBoeT09MzkuMC4wCg==
+# Dependencies for the intentionally vulnerable training app.
+#
+# Several pins are DELIBERATELY out of date so the SCA stage (pip-audit)
+# has real, documented CVEs to find. This is the one requirements file in
+# the world where that is the point. Do not copy these pins anywhere else.
+#
+# Known-vulnerable pins and why they were chosen:
+#   Werkzeug 2.2.3      CVE-2023-25577 (multipart DoS), CVE-2023-23934
+#                       (cookie parsing), CVE-2023-46136 -- the Flask debug
+#                       server stack this app actually runs on.
+#   urllib3 1.26.14     CVE-2023-43804 and CVE-2023-45803 (redirect /
+#                       cookie handling) -- pulled in transitively in
+#                       most stacks; pinned here so it is explicit.
+#   cryptography 39.0.0 CVE-2023-23931 and CVE-2023-49083 -- shows SCA
+#                       catching a security library that is itself stale.
+#   requests 2.28.1     Older line kept to demonstrate version drift
+#                       reporting; pip-audit is the source of truth for
+#                       whether it currently carries an advisory.
+Flask==2.2.3
+Werkzeug==2.2.3
+Jinja2==3.1.2
+requests==2.28.1
+urllib3==1.26.14
+cryptography==39.0.0
